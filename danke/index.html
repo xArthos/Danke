@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vielen Dank!</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Giampaolo Nico Lo Cascio">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+        html {
+            background-image: url(https://avante.biz/wp-content/uploads/Textures-For-Backgrounds/Textures-For-Backgrounds-012.jpg);
+            
+            background-repeat: no-repeat;
+            overflow-x: hidden;
+            overflow-y: visible;
+        }
+
+        .bar {
+            border-bottom-left-radius: 70%;
+            border-bottom-right-radius: 70%;
+            border-bottom: silver double 1px;
+            box-shadow: 2px 2px 30px darkred;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            margin-bottom: auto;
+            background-color: rgba(63, 63, 63, 0.753);
+        }
+
+        .codingimage {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 12px silver;
+            border: 1px solid silver;
+            opacity: 0.4;
+        }
+
+        .codingimage:hover {
+            opacity: 1.0;
+        }
+
+
+        p,
+        ul {
+            font-family: Bangers;
+            font-size: 30px;
+            color: whitesmoke;
+            text-shadow: 0px 0px 4px red;
+        }
+
+        h1 {
+            text-align: center;
+            font-style: normal;
+            font-size: 58px;
+            font-family: 'Permanent Marker';
+        }
+
+        h2 {           
+            text-align: center;
+            font-weight: lighter;
+            font-style: normal;
+            font-size: 28px;
+            font-family: 'Permanent Marker';
+        }
+        .container1 {
+            position: relative;
+            top: 20px;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 1fr 100px;
+            grid-template-areas:
+                "title title title"
+                "image1 image2 image3"
+                "title1 title2 title3";
+        }
+
+        .container1 .box11 {
+            align-self: center;
+            grid-area: title;
+        }
+
+        .container1 .box11 .textcolor {
+            color: orangered;
+            text-shadow: 0 0 12px red, 0 0 6px black;
+        }
+
+        .container1 .box15 .textcolor2 {
+            color: orangered;
+            text-shadow: 0 0 12px red, 0 0 6px black;
+        }
+
+        .container1 .box16 .textcolor3 {
+            color: orangered;
+            text-shadow: 0 0 12px red, 0 0 6px black;
+        }
+
+        .container1 .box17 .textcolor4 {
+            color: orangered;
+            text-shadow: 0 0 12px red, 0 0 6px black;
+        }
+
+        .container1 .box12 {
+            grid-area: image1;
+        }
+
+        .container1 .box13 {
+            grid-area: image2;
+        }
+
+        .container1 .box14 {
+            grid-area: image3;
+        }
+
+        .container1 .box15 {
+            grid-area: title1;
+        }
+
+        .container1 .box16 {
+            grid-area: title2;
+        }
+
+        .container1 .box17 {
+            grid-area: title3;
+        }
+
+
+        .container2 {
+            text-align: center;
+            align-items: center;
+            justify-items: center;
+            position: relative;
+            top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+                "text text text"
+                "text text text";
+        }
+
+        .box21 {
+            grid-area: text;
+        }
+
+
+        .footer {
+            border-radius: 15px;
+            background-color: darkslategray;
+            position: relative;
+            top: 25px;
+            bottom: 10px;
+            width: 100%;
+            height: 6%;          
+        }
+
+        .footer .divtext {
+            margin-top: auto;
+            margin-left: 5px;
+            color: whitesmoke;
+            text-shadow: 0px 0px 4px red;
+        }
+
+        .container1 .box11 #anim {
+            animation-name: movement;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes movement {
+            0% {
+                left: 15%;
+            }
+
+            35% {
+                left: 35%;
+            }
+
+            75% {
+                left: 75%;
+            }
+
+            100% {
+                left: 15%;
+            }
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="bar"></div>
+
+    <div class="container1">
+        <div class="box11">
+            <h1 class="textcolor" id="anim">Vielen Dank!</h1>
+        </div>
+        <div class="box12">
+            <img class="codingimage"
+                src="https://image.shutterstock.com/z/stock-photo-php-syntax-highlighted-coding-script-text-on-screen-notebook-closeup-photo-pc-software-creation-531156589.jpg">
+        </div>
+        <div class="box13">
+            <img class="codingimage"
+                src="https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        </div>
+        <div class="box14">
+            <img class="codingimage"
+                src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        </div>
+        <div class="box15">
+            <h2 class="textcolor2">Meine IT-Fähigkeiten verbessern</h2>
+        </div>
+        <div class="box16">
+            <h2 class="textcolor3">Einen Beruf erlernen</h2>
+        </div>
+        <div class="box17">
+            <h2 class="textcolor4">In Team arbeiten</h2>
+        </div>
+    </div>
+
+
+
+
+    <div class="container2">
+
+        <div class="box21">
+
+            <p>Vielen Dank, dass Sie mir die Möglichkeit geben, an diesem Kurs teilzunehmen.
+                <br>Es ist sehr wichtig für mich Informatik studieren, es ist eins von meine Hobbys und ich habe
+                immer davon geträumt, in der Informatik zu arbeiten.
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="divtext">© Giampaolo Nico Lo Cascio</div>
+    </div>
+
+
+
+
+</body>
+
+</html>
