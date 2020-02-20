@@ -1,4 +1,5 @@
         /* -----   Legend CSS   ------ */
+<<<<<<< HEAD
         /* Row   CSS Target
         - 20 Main
         - 40 Font Imported
@@ -19,16 +20,47 @@
         - 492 Media CSS */
         /*                         Main                  */
         
+=======
+
+        /* Row   CSS Target
+        - 21 Main
+        - 42 Font Imported
+        - 46 Header
+        - 74 Footer
+        - 93 Titles and text formattation
+        - 168 Ul
+        - 191 Positions
+        - 225 Flex Proprieties
+        - 306 Backgrounds
+        - 338 BoxImages
+        - 382 Boxes
+        - 417 Bars
+        - 443 Borders
+        - 453 Hover
+        - 459 Scrollbar
+        - 476 Media CSS */
+
+        /*                         Main                  */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         * {
             scrollbar-color: rgba(114, 114, 114, 0.692) rgb(0, 0, 0);
             scrollbar-width: thin;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         html {
             background-color: dimgray;
             overflow-x: hidden;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         body {
             background: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
             background-attachment: fixed;
@@ -37,11 +69,20 @@
             font-family: Courier, Verdana, Geneva, Tahoma, sans-serif;
             letter-spacing: 4px;
         }
+<<<<<<< HEAD
         /*                     Font Imported                        */
         
         @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
         /*                          Header                   */
         
+=======
+
+        /*                     Font Imported                        */
+
+        @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+        /*                          Header                   */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .header {
             background: black;
             color: silver;
@@ -52,7 +93,11 @@
             align-items: center;
             justify-content: center;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .header div a {
             background: none;
             text-decoration: none;
@@ -62,13 +107,23 @@
             padding: 8px 10px;
             font-weight: bold;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .header div a:hover {
             background: dimgray;
             color: black;
         }
+<<<<<<< HEAD
         /*                       Footer                         */
         
+=======
+
+        /*                       Footer                         */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .footer {
             display: flex;
             flex-direction: row;
@@ -77,6 +132,7 @@
             color: silver;
             width: 100%;
         }
+<<<<<<< HEAD
         
         .footer-box {
             width: 400px;
@@ -87,6 +143,19 @@
         }
         /*                   Titles and text formattation                */
         
+=======
+
+        .footer-box {
+            width: 400px;
+        }
+
+        .footer-row {
+            display: block;
+        }
+
+        /*                   Titles and text formattation                */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .sectiontitle {
             text-align: center;
             font-size: xxx-large;
@@ -96,11 +165,19 @@
             letter-spacing: 6px;
             text-shadow: 0 0 8px gold;
         }
+<<<<<<< HEAD
         
         a {
             text-decoration: none;
         }
         
+=======
+
+        a {
+            text-decoration: none;
+        }
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         h1 {
             font-size: 58px;
             padding: 0;
@@ -108,7 +185,11 @@
             color: silver;
             text-shadow: 0 0 8px goldenrod;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         h2 {
             margin: 5px 0;
             padding: 0;
@@ -118,7 +199,11 @@
             text-align: center;
             text-shadow: 0 0 8px darkred;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         h3 {
             color: silver;
             font-size: x-large;
@@ -126,7 +211,11 @@
             margin: 15px;
             text-shadow: 0 0 8px darkorange;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         h4 {
             color: silver;
             font-size: medium;
@@ -134,7 +223,11 @@
             margin: 15px;
             text-shadow: 0 0 8px dimgrey;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         p {
             margin: 0 15px;
             text-align: left;
@@ -143,30 +236,52 @@
             color: silver;
             text-shadow: 0 0 1px whitesmoke;
         }
+<<<<<<< HEAD
         
         .flex-txt p {
             text-align: center;
         }
         
+=======
+
+        .flex-txt p {
+            text-align: center;
+        }
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexcol-sa p {
             font-weight: 900;
             color: white;
             text-shadow: 0 0 8px darkred;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         #desc {
             font-size: medium;
             font-family: san-serif;
             font-family: sans-serif;
         }
+<<<<<<< HEAD
         /*                     Ul                    */
         
+=======
+
+        /*                     Ul                    */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         ul {
             display: flex;
             flex-direction: column;
             padding: 0;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         ul li {
             display: inline-flex;
             align-items: center;
@@ -175,12 +290,17 @@
             color: silver;
             margin: 10px;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         ul li img {
             margin-right: 15px;
             width: 30px;
             height: 30px;
         }
+<<<<<<< HEAD
         
         ul li a {
             color: white;
@@ -228,13 +348,64 @@
         }
         /*                             Flex Proprieties                          */
         
+=======
+
+        ul li a {
+            color: white;
+        }
+
+        ul li a:hover {
+            text-shadow: 0 0 4px yellow;
+        }
+
+        /*                       Positions                         */
+
+        .txtalign-c {
+            text-align: center;
+        }
+
+        .txtalign-l {
+            text-align: left;
+        }
+
+        .fl-l {
+            float: left;
+        }
+
+        .p-t15px {
+            padding-top: 15px;
+        }
+
+        .m-a {
+            margin: auto;
+        }
+
+        .m-10 {
+            margin: 10px;
+        }
+
+        .m-t40 {
+            margin-top: 40px;
+        }
+
+        .just-l {
+            justify-content: left !important;
+        }
+
+        /*                             Flex Proprieties                          */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexcol-c {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexcol-sa {
             display: inline-flex;
             justify-content: space-around;
@@ -242,7 +413,11 @@
             flex-direction: column;
             height: 450px;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexrow-c {
             display: flex;
             align-items: center;
@@ -251,7 +426,11 @@
             flex-direction: row;
             padding: 10px 0;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexrow-l {
             display: flex;
             align-items: center;
@@ -260,7 +439,11 @@
             flex-direction: row;
             padding: 10px 0;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexrow-r {
             display: flex;
             align-items: center;
@@ -269,7 +452,11 @@
             flex-direction: row;
             padding: 10px 0;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexrow-sa {
             display: flex;
             justify-content: space-around;
@@ -278,7 +465,11 @@
             padding: 10px 0;
             text-align: center;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flexrow-sb {
             display: flex;
             justify-content: space-between;
@@ -287,11 +478,19 @@
             flex-direction: row;
             padding: 10px 0;
         }
+<<<<<<< HEAD
         
         .flex-box {
             display: flow-root;
         }
         
+=======
+
+        .flex-box {
+            display: flow-root;
+        }
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .flex-txt {
             display: flex;
             color: silver;
@@ -299,13 +498,18 @@
             flex-direction: column;
             text-shadow: 0 0 4px black;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .item {
             display: inline-flex;
             flex-direction: column;
             justify-content: center;
             margin: 20px;
         }
+<<<<<<< HEAD
         /*                     Backgrounds                         */
         
         .bg-white {
@@ -320,31 +524,66 @@
             background: rgb(97, 0, 0);
         }
         
+=======
+
+        /*                     Backgrounds                         */
+
+        .bg-white {
+            background: white;
+        }
+
+        .bg-black {
+            background: black;
+        }
+
+        .bg-red {
+            background: rgb(97, 0, 0);
+        }
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .bg-work {
             background-image: url(https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
             background-size: cover;
             background-position: center;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .bg-stud {
             background-image: url(https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
             background-size: cover;
             background-position: center;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .bg-space {
             background: url(https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
             background-repeat: no-repeat;
             background-size: cover;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .bg-code {
             background: url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
             background-repeat: no-repeat;
             background-size: cover;
         }
+<<<<<<< HEAD
         /*                        BoxImages                           */
         
+=======
+
+        /*                        BoxImages                           */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .imgbox {
             width: 400px;
             height: 400px;
@@ -352,25 +591,41 @@
             border-radius: 50%;
             border: 5px solid silver;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .imgbox2 {
             width: 150px;
             height: 150px;
             border-radius: 20%;
             border: 5px solid silver;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .s-icon {
             width: 150px;
             height: 150px;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .icon {
             width: 50px;
             height: 50px;
             padding: 5px;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .avatar {
             position: relative;
             border-radius: 50%;
@@ -381,11 +636,16 @@
             margin-bottom: 20px;
             float: left;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .logo {
             width: 80px;
             margin: 5px;
         }
+<<<<<<< HEAD
         /*                     Boxes                       */
         
         .txt-box {
@@ -396,6 +656,19 @@
             width: 1200px;
         }
         
+=======
+
+        /*                     Boxes                       */
+
+        .txt-box {
+            width: 200px;
+        }
+
+        .container {
+            width: 1200px;
+        }
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .container-box {
             width: auto;
             height: 800px;
@@ -404,7 +677,11 @@
             align-items: center;
             justify-content: center;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .info-box {
             font-family: sans-serif;
             background: black;
@@ -413,20 +690,29 @@
             box-shadow: 0 0 8px silver;
             margin: 100px 0px 100px 150px;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .work-box {
             padding: 40px;
             background: black;
             border: 2px solid silver;
             box-shadow: 0 0 8px silver;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .kurs-box {
             background: black;
             border: 2px solid silver;
             box-shadow: 0 0 8px silver;
         }
 
+<<<<<<< HEAD
         .box-desc {
             font-family: sans-serif;
             background: black;
@@ -437,29 +723,46 @@
         }
         /*                   Bars                  */
         
+=======
+        /*                   Bars                  */
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .top-bar {
             width: 100%;
             height: 50px;
             border-top-right-radius: 100%;
             border-top-left-radius: 100%;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .top-bar1 {
             width: 100%;
             height: 50px;
             border-top-left-radius: 100%;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .c-bar {
             width: 100%;
             height: 30px;
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
         .b-bar {
             width: 100%;
             height: 50px;
             border-bottom-right-radius: 100%;
         }
+<<<<<<< HEAD
         /*                   Borders                */
         
         .border-top {
@@ -501,3 +804,31 @@
         /*                Media CSS                */
         
         @media (Max-width: 360px) {}
+=======
+
+        /*                   Borders                */
+
+        .border-top {
+            border-top: 1px groove silver;
+        }
+
+        .border-bot {
+            border-bottom: 1px groove silver;
+        }
+
+        /*                 Hover             */
+
+        .hover:hover {
+            box-shadow: 0 0 16px silver;
+        }
+
+        /*                         Scrollbar            */
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        /*                Media CSS                */
+
+        @media (Min-width: 320px) {}
+>>>>>>> 630781e2463eca5fb18dbd4be3a8a10007805359
