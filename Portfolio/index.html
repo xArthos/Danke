@@ -5,795 +5,341 @@
     <title>Arthos Development</title>
     <meta name="author" content="Giampaolo">
     <meta charset="utf-8">
-    <link rel="icon" href="https://i.imgur.com/3W79eF1.png">
-    <style>
-        /* -----   Legend CSS   ------ */
-        /* Row   CSS Target
-        - 30 Main
-        - 46 Font Imported
-        - 51 Header
-        - 78 Footer
-        - 97 Titles and text formattation
-        - 172 Ul
-        - 195 Positions
-        - 225 Flex Proprieties
-        - 306 Backgrounds
-        - 338 BoxImages
-        - 377 Boxes
-        - 412 Bars
-        - 438 Borders
-        - 447 Hover
-        - 453 Scrollbar
-        - 459 Media CSS */
-
-
-        /*                         Main                  */
-
-        html {
-            background-color: dimgray;
-            overflow-x: hidden;
-        }
-
-        body {
-            background: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
-            background-attachment: fixed;
-            background-size: cover;
-            margin: 0;
-            font-family: Courier, Verdana, Geneva, Tahoma, sans-serif;
-            letter-spacing: 4px;
-        }
-
-        /*                     Font Imported                        */
-
-        @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
-
-        /*                          Header                   */
-
-        .header {
-            background: black;
-            color: silver;
-            margin: 0;
-            padding: 30px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .header div a {
-            background: none;
-            text-decoration: none;
-            color: silver;
-            border: 1px solid silver;
-            margin: 0 10px 0 0;
-            padding: 8px 10px;
-            font-weight: bold;
-        }
-
-        .header div a:hover {
-            background: dimgray;
-            color: black;
-        }
-
-        /*                       Footer                         */
-
-        .footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            background: black;
-            color: silver;
-            width: 100%;
-        }
-
-        .footer-box {
-            width: 400px;
-        }
-
-        .footer-row {
-            display: block;
-        }
-
-        /*                   Titles and text formattation                */
-
-        .sectiontitle {
-            text-align: center;
-            font-size: xxx-large;
-            font-weight: bold;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            letter-spacing: 6px;
-            text-shadow: 0 0 8px gold;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        h1 {
-            font-size: 58px;
-            padding: 0;
-            margin: 0;
-            color: silver;
-            text-shadow: 0 0 8px goldenrod;
-        }
-
-        h2 {
-            margin: 5px 0;
-            padding: 0;
-            font-size: xx-large;
-            font-weight: bolder;
-            color: silver;
-            text-align: center;
-            text-shadow: 0 0 8px darkred;
-        }
-
-        h3 {
-            color: silver;
-            font-size: x-large;
-            font-weight: 900;
-            margin: 15px;
-            text-shadow: 0 0 8px darkorange;
-        }
-
-        h4 {
-            color: silver;
-            font-size: medium;
-            font-weight: 900;
-            margin: 15px;
-            text-shadow: 0 0 8px dimgrey;
-        }
-
-        p {
-            margin: 0 15px;
-            text-align: left;
-            font-size: x-large;
-            font-family: Sriracha;
-            color: silver;
-            text-shadow: 0 0 6px whitesmoke;
-        }
-
-        .flex-txt p {
-            text-align: center;
-        }
-
-        .flexcol-sa p {
-            font-weight: 900;
-            color: white;
-            text-shadow: 0 0 8px darkred;
-        }
-
-        #desc {
-            font-size: medium;
-            font-family: san-serif;
-            font-family: sans-serif;
-        }
-
-        /*                     Ul                    */
-
-        ul {
-            display: flex;
-            flex-direction: column;
-            padding: 0;
-        }
-
-        ul li {
-            display: inline-flex;
-            align-items: center;
-            list-style-type: none;
-            font-size: x-large;
-            color: silver;
-            margin: 10px;
-        }
-
-        ul li img {
-            margin-right: 15px;
-            width: 30px;
-            height: 30px;
-        }
-
-        /*                       Positions                         */
-
-        .txtalign-c {
-            text-align: center;
-        }
-
-        .fl-l {
-            float: left;
-        }
-
-        .p-t15px {
-            padding-top: 15px;
-        }
-
-        .m-a {
-            margin: auto;
-        }
-
-        .m-10 {
-            margin: 10px;
-        }
-
-        .m-t40 {
-            margin-top: 40px;
-        }
-
-        .just-l {
-            justify-content: left !important;
-        }
-
-        /*                             Flex Proprieties                          */
-
-        .flexcol-c {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .flexcol-sa {
-            display: inline-flex;
-            justify-content: space-around;
-            text-align: left;
-            flex-direction: column;
-            height: 450px;
-        }
-
-        .flexrow-c {
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            flex-direction: row;
-            padding: 10px 0;
-        }
-
-        .flexrow-l {
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: left;
-            flex-direction: row;
-            padding: 10px 0;
-        }
-
-        .flexrow-r {
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: right;
-            flex-direction: row;
-            padding: 10px 0;
-        }
-
-        .flexrow-sa {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: row;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        .flexrow-sb {
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            align-items: center;
-            flex-direction: row;
-            padding: 10px 0;
-        }
-
-        .flex-box {
-            display: flow-root;
-        }
-
-        .flex-txt {
-            display: flex;
-            color: silver;
-            align-items: center;
-            flex-direction: column;
-            text-shadow: 0 0 4px black;
-        }
-
-        .item {
-            display: inline-flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 20px;
-        }
-
-        /*                     Backgrounds                         */
-
-        .bg-white {
-            background: white;
-        }
-
-        .bg-black {
-            background: black;
-        }
-
-        .bg-red {
-            background: rgb(97, 0, 0);
-        }
-
-        .bg-work {
-            background-image: url(https://images.unsplash.com/photo-1508858648555-ba5da0be9511?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2016&q=80);
-            background-size: cover;
-            background-position: center;
-        }
-
-        .bg-stud {
-            background-image: url(https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-            background-size: cover;
-            background-position: center;
-        }
-
-        .bg-space {
-            background: url(https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        /*                        BoxImages                           */
-
-        .imgbox {
-            width: 400px;
-            height: 400px;
-            margin: 70px 50px 50px 50px;
-            border-radius: 50%;
-            border: 5px solid silver;
-        }
-
-        .imgbox2 {
-            width: 150px;
-            height: 150px;
-            border-radius: 20%;
-            border: 5px solid silver;
-        }
-
-        .s-icon {
-            width: 150px;
-            height: 150px;
-        }
-
-        .icon {
-            width: 50px;
-            height: 50px;
-            padding: 5px;
-        }
-
-        .avatar {
-            position: relative;
-            border-radius: 50%;
-            border: 5px solid silver;
-            width: 120px;
-            height: 120px;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            float: left;
-        }
-
-        /*                     Boxes                       */
-
-        .txt-box {
-            width: 200px;
-        }
-
-        .container {
-            width: 1200px;
-        }
-
-        .container-box {
-            width: auto;
-            height: 800px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .info-box {
-            font-family: sans-serif;
-            background: black;
-            border-radius: 10%;
-            border: 2px solid silver;
-            box-shadow: 0 0 8px silver;
-            margin: 100px 0px 100px 150px;
-        }
-
-        .work-box {
-            padding: 40px;
-            background: black;
-            border: 2px solid silver;
-            box-shadow: 0 0 8px silver;
-        }
-
-        /*                   Bars                  */
-
-        .top-bar {
-            width: 100%;
-            height: 50px;
-            border-top-right-radius: 100%;
-            border-top-left-radius: 100%;
-        }
-
-        .top-bar1 {
-            width: 100%;
-            height: 50px;
-            border-top-left-radius: 100%;
-        }
-
-        .c-bar {
-            width: 100%;
-            height: 30px;
-        }
-
-        .b-bar {
-            width: 100%;
-            height: 50px;
-            border-bottom-right-radius: 100%;
-        }
-
-        /*                   Borders                */
-        .border-top {
-            border-top: 1px groove silver;
-        }
-
-        .border-bot {
-            border-bottom: 1px groove silver;
-        }
-
-        /*                 Hover             */
-
-        .hover:hover {
-            box-shadow: 0 0 16px silver;
-        }
-
-        /*                         Scrollbar            */
-
-        ::-webkit-scrollbar {
-            width: 5px;
-        }
-
-        /*                Media CSS                */
-
-        @media (Min-width: 320px) {}
-    </style>
+    <link rel="icon" href="/img/LogoIcon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="body">
         <!---------------------------------------------------------     H e a d e r     ------------------------------------------------------>
-        <div class="header">
-            <div class="m-a">
-                <h2>Arthos Development</h2>
+        <header>
+            <div class="header">
+                <div class="flexrow-c m-a">
+                    <div class="flexrow-l">
+                        <img class="logo" src="/img/LogoIcon.png">
+                        <h2 class=" txtalign-l">Arthos<br>Development</h2>
+                    </div>
+                </div>
+                <div class="m-a">
+                    <a href="#About">Über mich</a>
+                </div>
             </div>
-            <div class="m-a">
-                <a href="#About">Über mich</a>
-            </div>
-        </div>
+        </header>
 
         <!---------------------------------------------------------     I n t r o     ------------------------------------------------------>
-        <div class="flexcol-c">
+        <section>
+            <div class="flexcol-c">
+                <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%">
+                    <path d="M0 0 L50 100 L100 0 Z" fill="black" stroke></path>
+                </svg>
+                <div class="container-box">
+                    <h1>Ihr Entwickler für Ihr Projekt</h1>
+                    <h2>Web Design, Videospiel-Projekte<br> und Digital-Art</h2>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------     F ä h i g k e i t e n    S e c t i o n    ------------------------------------------------------->
+        <section>
+            <div class="top-bar bg-red border-top"></div>
+            <div class="flexrow-c bg-red">
+                <div>
+                    <h2 class="sectiontitle">Fähigkeiten</h2>
+                </div>
+            </div>
+
+            <div class="flexrow-c bg-red">
+                <div class="container">
+                    <div class="item">
+                        <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/2234/2234502.svg"></div>
+                        <div class="flex-txt">
+                            <h3 class="m-t40">Coding</h3>
+                            <div class="txt-box">
+                                <p>Ich schreibe in Code:<br> C#, CSS, C++, Javascript, Java, HTML, Python und PhP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/1383/1383670.svg"></div>
+                        <div class="flex-txt">
+                            <h3 class="m-t40">Kreativ</h3>
+                            <div class="txt-box">
+                                <p>Ich mache meine Bilder und 3D-Modelle selbst mit Photoshop und Blender</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/2234/2234510.svg"></div>
+                        <div class="flex-txt">
+                            <h3 class="m-t40">Ordung</h3>
+                            <div class="txt-box">
+                                <p>Genauigkeit und Ordnung sind Grundbegriffe meiner Arbeit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/1383/1383691.svg"></div>
+                        <div class="flex-txt">
+                            <h3 class="m-t40">Problem-Solving</h3>
+                            <div class="txt-box">
+                                <p>Ich löse effektiv umständliche und komplizierte Prozesse</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------      S t u d i u m      S e c t i o n        ------------------------------------------------------->
+        <section>
+            <div class="flexrow-c bg-red">
+                <div>
+                    <h2 class="sectiontitle">Studium</h2>
+                </div>
+            </div>
+
+            <div class="bg-stud">
+                <svg preserveAspectRatio="none" viewBox="0 0 100 102" width="100%" height="97">
+                    <path fill="rgb(97, 0, 0)" stroke="" d="M0 0 L69 88 L144 0 Z"></path>
+                </svg>
+                <div class="flexrow-c">
+                    <div class="container">
+                        <div class="flexrow-l">
+                            <div class="flexcol-sa">
+
+                                <img class="imgbox2 bg-white hover"
+                                    src="https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/039/637/crop_original_bp1576754267_DCI_Logo_blue.png">
+
+                                <img class="imgbox2 bg-white hover"
+                                    src="https://www.telc.net/typo3conf/ext/template/Resources/Public/images/logo.svg">
+                            </div>
+                            <div class="flexcol-sa">
+                                <p class="m-10">2020 -2021 <br> Studium mit sehr gutem Erfolg abgeschlossen</p>
+                                <p class="m-10">2019 <br> B1 gut Erfolgt</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-bar1 bg-black border-top"></div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------       M e i n   A r b e i t      S e c t i o n        ------------------------------------------------------->
+        <section>
+            <div class="flexrow-c bg-black">
+                <h2 class="sectiontitle">Mein Arbeit</h2>
+            </div>
+
+            <div class="bg-work">
+                <div class="b-bar bg-black border-bot"></div>
+                <div class="flexrow-c">
+                    <div class="container">
+                        <div class="flexrow-l">
+                            <div class="work-box">
+                                <h3>Mein persönlicher Blog</h3>
+                                <div class="flexrow-l">
+                                    <a href="https://playerleague.home.blog/" target="_blink">
+                                        <img class="s-icon hover"
+                                            src="https://i2.wp.com/playerleaguehome.files.wordpress.com/2019/08/cropped-icona-browser.gif?ssl=1"
+                                            alt="Player League" width="600" height="120">
+                                    </a>
+                                    <p>Seit September 2019 habe ich
+                                        <br>mein erste persönilcher Blog geschaffen.
+                                        <br>Artikeln, Medien und Blog-Inhalt
+                                        <br>werden von mir gemacht.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flexrow-r">
+                            <div class="work-box">
+                                <h3>Forum Projekt</h3>
+                                <div class="flexrow-r">
+                                    <a href="https://brigatafolgoreclan.forumfree.it/" target="_blink">
+                                        <img class="s-icon hover"
+                                            src="https://image.flaticon.com/icons/svg/943/943605.svg"
+                                            alt="Brigata Folgore" type="image/png" width="600" height="120">
+                                    </a>
+                                    <p>Mein erste Webseite in 2010
+                                        <br>Ich war Gründer und Manager,
+                                        <br>noch heute sind einige Abschnitte erhalten.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flexrow-l">
+                            <div class="work-box">
+                                <h3>Neu Projekt - Unity</h3>
+                                <div class="flexrow-l">
+                                    <img class="s-icon" src="https://image.flaticon.com/icons/svg/742/742263.svg"
+                                        alt="Unity" width="600" height="120">
+                                    <p>Ich arbeite gerade an einem neuen Projekt
+                                        <br>mit Unity Engine.
+                                        <br>Mein erste Videospiele
+                                        <br>kommt bald (ich hoffe).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-bar bg-black border-top"></div>
+                <div class="c-bar bg-black"></div>
+            </div>
+            
             <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%">
                 <path d="M0 0 L50 100 L100 0 Z" fill="black" stroke></path>
             </svg>
-            <div class="container-box">
-                <h1>Ihr Entwickler für Ihr Projekt</h1>
-                <h2>Web Design, Videospiel-Projekte<br> und Digital-Art</h2>
-            </div>
-        </div>
+        </section>
 
-        <!---------------------------------------------------------     F ä h i g k e i t e n    S e c t i o n    ------------------------------------------------------->
-        <div class="top-bar bg-red border-top"></div>
-        <div class="flexrow-c bg-red">
-            <div>
-                <h2 class="sectiontitle">Fähigkeiten</h2>
-            </div>
-        </div>
+        <!---------------------------------------------------------       O n l i n e   K u r s e      S e c t i o n        ------------------------------------------------------->
+        <section>
+            <div class="top-bar bg-black border-top"></div>
 
-        <div class="flexrow-c bg-red">
-            <div class="container">
-                <div class="item">
-                    <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/2234/2234502.svg"></div>
-                    <div class="flex-txt">
-                        <h3 class="m-t40">Coding</h3>
-                        <div class="txt-box">
-                            <p>Ich schreibe in Code:<br> C#, CSS, C++, Javascript, Java, HTML, Python und PhP</p>
+            <div class="flexrow-c bg-black">
+                <h2 class="sectiontitle">Online Kurse</h2>
+            </div>
+
+            <div class="bg-code">
+                <div class="b-bar bg-black border-bot"></div>
+
+                <div class="flexrow-c">
+                    <div class="container flexrow-sa">
+                        <div class="kurs-box">
+                            <h3>Free Kurs</h3>
+                        </div>
+
+                        <div class="kurs-box">
+                            <h3>Web Development</h3>
+                        </div>
+
+                        <div class="kurs-box">
+                            <h3>Web Design</h3>
+                        </div>
+
+                        <div class="kurs-box">
+                            <h3>Spielen Entwicklung</h3>
                         </div>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/1383/1383670.svg"></div>
-                    <div class="flex-txt">
-                        <h3 class="m-t40">Kreativ</h3>
-                        <div class="txt-box">
-                            <p>Ich mache meine Bilder und 3D-Modelle selbst mit Photoshop und Blender</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/2234/2234510.svg"></div>
-                    <div class="flex-txt">
-                        <h3 class="m-t40">Ordung</h3>
-                        <div class="txt-box">
-                            <p>Genauigkeit und Ordnung sind Grundbegriffe meiner Arbeit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div><img class="s-icon" src="https://image.flaticon.com/icons/svg/1383/1383691.svg"></div>
-                    <div class="flex-txt">
-                        <h3 class="m-t40">Problem-Solving</h3>
-                        <div class="txt-box">
-                            <p>Ich löse effektiv umständliche und komplizierte Prozesse</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="top-bar bg-black border-top"></div>
             </div>
-        </div>
 
-        <!---------------------------------------------------------      S t u d i u m      S e c t i o n        ------------------------------------------------------->
-        <div class="flexrow-c bg-red">
-            <div>
-                <h2 class="sectiontitle">Studium</h2>
-            </div>
-        </div>
+            <div class="c-bar bg-black"></div>
 
-        <div class="bg-stud">
-            <svg preserveAspectRatio="none" viewBox="0 0 100 102" width="100%" height="97">
-                <path fill="rgb(97, 0, 0)" stroke="" d="M0 0 L69 88 L144 0 Z"></path>
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%">
+                <path d="M0 0 L50 100 L100 0 Z" fill="black" stroke></path>
             </svg>
-            <div class="flexrow-c">
-                <div class="container">
-                    <div class="flexrow-l">
-                        <div class="flexcol-sa">
-
-                            <img class="imgbox2 bg-white hover"
-                                src="https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/039/637/crop_original_bp1576754267_DCI_Logo_blue.png">
-
-                            <img class="imgbox2 bg-white hover"
-                                src="https://www.telc.net/typo3conf/ext/template/Resources/Public/images/logo.svg">
-                        </div>
-                        <div class="flexcol-sa">
-                            <p class="m-10">2020 -2021 <br> Studium mit sehr gutem Erfolg abgeschlossen</p>
-                            <p class="m-10">2019 <br> B1 gut Erfolgt</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="top-bar1 bg-black border-top"></div>
-        </div>
-
-        <!---------------------------------------------------------       M e i n   A r b e i t      S e c t i o n        ------------------------------------------------------->
-        <div class="flexrow-c bg-black">
-            <h2 class="sectiontitle">Mein Arbeit</h2>
-        </div>
-
-        <div class="bg-work">
-            <div class="b-bar bg-black border-bot"></div>
-            <div class="flexrow-c">
-                <div class="container">
-                    <div class="flexrow-l">
-                        <div class="work-box">
-                            <h3>Mein persönlicher Blog</h3>
-                            <div class="flexrow-l">
-                                <a href="https://playerleague.home.blog/" target="_blink">
-                                    <img class="s-icon hover"
-                                        src="https://i2.wp.com/playerleaguehome.files.wordpress.com/2019/08/cropped-icona-browser.gif?ssl=1"
-                                        alt="Player League" width="600" height="120">
-                                </a>
-                                <p>Seit September 2019 habe ich
-                                    <br>mein erste persönilcher Blog geschaffen.
-                                    <br>Artikeln, Medien und Blog-Inhalt
-                                    <br>werden von mir gemacht.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flexrow-r">
-                        <div class="work-box">
-                            <h3>Forum Projekt</h3>
-                            <div class="flexrow-r">
-                                <a href="https://brigatafolgoreclan.forumfree.it/" target="_blink">
-                                    <img class="s-icon hover" src="https://image.flaticon.com/icons/svg/943/943605.svg"
-                                        alt="Brigata Folgore" type="image/png" width="600" height="120">
-                                </a>
-                                <p>Mein erste Webseite in 2010
-                                    <br>Ich war Gründer und Manager,
-                                    <br>noch heute sind einige Abschnitte erhalten.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flexrow-l">
-                        <div class="work-box">
-                            <h3>Neu Projekt - Unity</h3>
-                            <div class="flexrow-l">
-                                <img class="s-icon" src="https://image.flaticon.com/icons/svg/742/742263.svg"
-                                    alt="Unity" width="600" height="120">
-                                <p>Ich arbeite gerade an einem neuen Projekt
-                                    <br>mit Unity Engine.
-                                    <br>Mein erste Videospiele
-                                    <br>kommt bald (ich hoffe).
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="top-bar bg-black border-top"></div>
-            <div class="c-bar bg-black"></div>
-        </div>
-        <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%">
-            <path d="M0 0 L50 100 L100 0 Z" fill="black" stroke></path>
-        </svg>
-
-        <!---------------------------------------------------------       P r o d u k t e      S e c t i o n        ------------------------------------------------------->
-        <div class="flexrow-c bg-black">
-            <h2 class="sectiontitle">Produkte</h2>
-        </div>
-
-        <div class="bg-work">
-            <div class="b-bar bg-black border-bot"></div>
-            <div class="flexrow-c">
-                <div class="container flexrow-sa">
-                    <div class="flexrow-r">
-                        <div class="work-box">
-                            <h3>Forum Projekt</h3>
-                            <div class="flexcol-c">
-                                
-                                    <img class="s-icon hover" src="https://image.flaticon.com/icons/svg/943/943605.svg"
-                                        alt="Brigata Folgore" type="image/png" width="600" height="120">
-                                
-                                <p>Wie kann ich eine Website entwickeln? Wie arbeitet einen Webentwickler?
-                                    Ob du frage dafür hast, 
-                                </p>
-                                <br>
-                                <button>Download</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flexrow-r">
-                        <div class="work-box">
-                            <h3>Forum Projekt</h3>
-                            <div class="flexcol-c">
-                                <a href="https://brigatafolgoreclan.forumfree.it/" target="_blink">
-                                    <img class="s-icon hover" src="https://image.flaticon.com/icons/svg/943/943605.svg"
-                                        alt="Brigata Folgore" type="image/png" width="600" height="120">
-                                </a>
-                                <br>
-                                <button>Kaufen</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flexrow-r">
-                        <div class="work-box">
-                            <h3>Forum Projekt</h3>
-                            <div class="flexcol-c">
-                                <a href="https://brigatafolgoreclan.forumfree.it/" target="_blink">
-                                    <img class="s-icon hover" src="https://image.flaticon.com/icons/svg/943/943605.svg"
-                                        alt="Brigata Folgore" type="image/png" width="600" height="120">
-                                </a>
-                                <br>
-                                <button>Kaufen</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="top-bar bg-black border-top"></div>
-            <div class="c-bar bg-black"></div>
-        </div>
-        <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%">
-            <path d="M0 0 L50 100 L100 0 Z" fill="black" stroke></path>
-        </svg>
+        </section>
 
         <!---------------------------------------------------------       K o n t a k t      S e c t i o n      ------------------------------------------------------->
-        <div class="flexrow-c">
-            <div>
-                <div><img class="imgbox hover"
-                        src="https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1312&q=80">
+        <section>
+            <div class="flexrow-c">
+                <div>
+                    <div><img class="imgbox hover"
+                            src="https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1312&q=80">
+                    </div>
                 </div>
-            </div>
-            <main>
-                <div class="info-box">
-                    <h2>Kontaktdaten</h2>
-                    <p>Wenn Sie mich für ein Projekt kontaktieren
-                        <br>oder einfach einen Gruß
-                        <br> hinterlassen möchten,
-                        <br>finden Sie mich unter diesen Kanälen.</p>
-                    <ul class="m-10">
-                        <li><img src="https://img.icons8.com/nolan/64/email-sign.png" alt="email">
-                            giampaololocascio@gmail.com</li>
-                        <li><img src="https://image.flaticon.com/icons/svg/174/174879.svg" alt="whatsapp">(+39) 348
-                            8165383</li>
-                        <li><img src="https://image.flaticon.com/icons/svg/174/174869.svg" alt="skype">@Arthos93</li>
+                <main>
+                    <div class="info-box">
+                        <h2>Kontaktdaten</h2>
+                        <p>Wenn Sie mich für ein Projekt kontaktieren
+                            <br>oder einfach einen Gruß
+                            <br> hinterlassen möchten,
+                            <br>finden Sie mich unter diesen Kanälen.</p>
+                        <ul class="m-10">
+                            <li><img src="https://img.icons8.com/nolan/64/email-sign.png" alt="email">
+                                giampaololocascio@gmail.com</li>
+                            <li><img src="https://image.flaticon.com/icons/svg/174/174879.svg" alt="whatsapp">(+39) 348
+                                8165383</li>
+                            <li><img src="https://image.flaticon.com/icons/svg/174/174869.svg" alt="skype">@Arthos93
+                            </li>
 
-                    </ul>
-                </div>
-            </main>
-        </div>
+                        </ul>
+                    </div>
+                </main>
+            </div>
+        </section>
 
         <!---------------------------------------------------------     F o o t e r     ------------------------------------------------------->
-        <div class="footer border-top">
-            <div class="footer-box">
-                <h3 id="About">Über mich</h3>
-                <div class="footer-row"><img class="avatar hover"
-                        src="https://avatars0.githubusercontent.com/u/60613690?s=400&v=4" alt="Me">
-                    <p id="desc">Giampaolo Lo Cascio, alias Arthos, ist ein Web-Spiele Entwickler der in Duisburg wohnt.
-                        Er macht Webseite, Spielen Mod und Web Grafik.</p>
+        <footer>
+            <div class="footer border-top">
+                <div class="footer-box">
+                    <h3 id="About">Über mich</h3>
+                    <div class="footer-row"><img class="avatar hover"
+                            src="https://avatars0.githubusercontent.com/u/60613690?s=400&v=4" alt="Me">
+                        <p id="desc">Giampaolo Lo Cascio, alias Arthos, ist ein Web-Spiele Entwickler der in Duisburg
+                            wohnt.
+                            Er macht Webseite, Spielen Mod und Web Design.</p>
+                    </div>
+                    <h4>
+                        © Giampaolo Nico Lo Cascio
+                    </h4>
                 </div>
-                <h4>
-                    © Giampaolo Nico Lo Cascio
-                </h4>
+
+                <div class="footer-box txtalign-c">
+                    <h3>Zertifikate</h3>
+                    <img class="icon"
+                        src="http://blog.kreatys.com/wp-content/uploads/2019/03/javascript-logo-8892AEFCAC-seeklogo.com_.png">
+                    <img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png">
+                    <img class="icon"
+                        src="https://cdn3.iconfinder.com/data/icons/social-media-special/256/css3-512.png">
+                    <br>
+                    <img class="icon"
+                        src="https://2.bp.blogspot.com/-DrHDBZWMWC0/WyLLvXElCpI/AAAAAAAAACg/BpyMuVGLcaQJ3ur3HgsVqcgZ_di2-Qb1QCLcBGAs/s1600/c-plus-plus-logo.png">
+                    <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/8/82/C_Sharp_logo.png">
+                    <img class="icon"
+                        src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png">
+                </div>
+
+                <div class="footer-box txtalign-c">
+
+                    <h3>Folge mir auf</h3>
+
+                    <a href="https://www.facebook.com/ArthosDev" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/174/174848.svg" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/arthos_development/?hl=it" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="instagram">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCNDSUc58Yfgrdk7JIhPXU6w?view_as=subscriber"
+                        target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/1384/1384060.svg" alt="youtube">
+                    </a>
+                    <br>
+                    <a href="https://twitter.com/ArthosDev" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/in/giampaolo-nico-lo-cascio-07a9971a1/" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="linkedin">
+                    </a>
+                    <a href="https://twitter.com/ArthosDev" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/2111/2111737.svg" alt="xing">
+                    </a>
+                    <br>
+                    <a href="https://wordpress.org" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/174/174881.svg" alt="wordpress">
+                    </a>
+                    <a href="https://www.google.de/" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/174/174851.svg" alt="google+">
+                    </a>
+                    <a href="https://discordapp.com/" target="_blank">
+                        <img class="icon" src="https://image.flaticon.com/icons/svg/2111/2111370.svg" alt="discord">
+                    </a>
+
+                </div>
             </div>
+        </footer>
 
-            <div class="footer-box txtalign-c">
-                <h3>Zertifikate</h3>
-                <img class="icon"
-                    src="http://blog.kreatys.com/wp-content/uploads/2019/03/javascript-logo-8892AEFCAC-seeklogo.com_.png">
-                <img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png">
-                <img class="icon" src="https://cdn3.iconfinder.com/data/icons/social-media-special/256/css3-512.png">
-                <br>
-                <img class="icon"
-                    src="https://2.bp.blogspot.com/-DrHDBZWMWC0/WyLLvXElCpI/AAAAAAAAACg/BpyMuVGLcaQJ3ur3HgsVqcgZ_di2-Qb1QCLcBGAs/s1600/c-plus-plus-logo.png">
-                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/8/82/C_Sharp_logo.png">
-                <img class="icon"
-                    src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png">
-            </div>
-
-            <div class="footer-box txtalign-c">
-
-                <h3>Folge mir auf</h3>
-
-                <a href="https://www.facebook.com/ArthosDev" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/174/174848.svg" alt="facebook">
-                </a>
-                <a href="https://www.instagram.com/arthos_development/?hl=it" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="instagram">
-                </a>
-                <a href="https://www.youtube.com/channel/UCNDSUc58Yfgrdk7JIhPXU6w?view_as=subscriber" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/1384/1384060.svg" alt="youtube">
-                </a>
-                <br>
-                <a href="https://twitter.com/ArthosDev" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="twitter">
-                </a>
-                <a href="https://www.linkedin.com/in/giampaolo-nico-lo-cascio-07a9971a1/" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="linkedin">
-                </a>
-                <a href="https://twitter.com/ArthosDev" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/2111/2111737.svg" alt="xing">
-                </a>
-                <br>
-                <a href="https://wordpress.org" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/174/174881.svg" alt="wordpress">
-                </a>
-                <a href="https://www.google.de/" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/174/174851.svg" alt="google+">
-                </a>
-                <a href="https://discordapp.com/" target="_blank">
-                    <img class="icon" src="https://image.flaticon.com/icons/svg/2111/2111370.svg" alt="discord">
-                </a>
-
-            </div>
-        </div>
     </div>
 </body>
 
