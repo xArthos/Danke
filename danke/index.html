@@ -10,10 +10,17 @@
         @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 
         html {
+            overflow-x: hidden;
+            
+        }
+
+        body {
             background-image: url(https://avante.biz/wp-content/uploads/Textures-For-Backgrounds/Textures-For-Backgrounds-012.jpg);
             background-repeat: no-repeat;
-            overflow-x: hidden;
-            overflow-y: visible;
+            background-size: cover;
+            margin: auto;
+            width: 1200px;
+            text-align: center;
         }
 
         .bar {
@@ -43,7 +50,6 @@
             opacity: 1.0;
         }
 
-
         p,
         ul {
             font-family: Bangers;
@@ -67,6 +73,7 @@
             font-family: 'Permanent Marker';
 
         }
+
         .container1 {
             position: relative;
             top: 20px;
@@ -83,14 +90,13 @@
         .container1 .box11 {
             align-self: center;
             grid-area: title;
-        }
-
-        .container1 .box11 .textcolor {
             color: orangered;
             text-shadow: 0 0 12px red, 0 0 6px black;
+            width: 100%;
         }
 
-        .container1 .box15 .textcolor2 {
+        
+.textcolor2 {
             color: rgb(75, 204, 0);
             text-shadow: 0 0 12px red, 0 0 6px black;
         }
@@ -129,7 +135,6 @@
             grid-area: title3;
         }
 
-
         .container2 {
             text-align: center;
             align-items: center;
@@ -148,7 +153,6 @@
             grid-area: text;
         }
 
-
         .footer {
             border-radius: 15px;
             background-color: darkslategray;
@@ -156,7 +160,7 @@
             top: 25px;
             bottom: 10px;
             width: 100%;
-            height: 6%;          
+            height: 6%;
         }
 
         .footer .divtext {
@@ -170,11 +174,16 @@
             animation-name: movement;
             animation-duration: 8s;
             animation-iteration-count: infinite;
+            position: relative;
+            width: 400px;
+            height: 85px;;
+            top: 0;
+            left: 0;
         }
 
         @keyframes movement {
             0% {
-                left: 15%;
+                left: 0%;
             }
 
             35% {
@@ -182,11 +191,11 @@
             }
 
             75% {
-                left: 75%;
+                left: 65%;
             }
 
             100% {
-                left: 15%;
+                left: 0%;
             }
         }
     </style>
