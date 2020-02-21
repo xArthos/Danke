@@ -524,6 +524,11 @@ ul li a:hover {
     border-bottom-right-radius: 100%;
 }
 
+.title-box {
+    width: 50%;
+    text-align: center;
+}
+
 /*                   Borders                */
 
 .border-top {
