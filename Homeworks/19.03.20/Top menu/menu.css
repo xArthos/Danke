@@ -1,14 +1,21 @@
 /* --------------    CSS LEGENDS  ------------*/
-
-
-
-
-
-
+/* Row Number-------Name of the section 
+12      Main
+55      Headings
+62      Nav Bar
+111     Home Section
+134     Side Bar Properties
+177     Footer Properties
+194     Gallery Grid
+219     Profile Box
+/* --*---*----*-----*-----*-----*-----*-----*---*-- */
 /* -----------  M a i n  ----------  */
 * {
     scroll-behavior: smooth;
     font-family: sans-serif;
+    color: snow;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(114, 114, 114, 0.692) rgb(0, 0, 0);
 }
 
 body {
@@ -34,10 +41,13 @@ header {
 section {
     display: flex;
     margin: 5px 0;
+    justify-content: center;
 } 
 
 footer {
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    height: -content;
     background-color: black;
     border-top: 1px solid snow;
 } 
@@ -49,7 +59,7 @@ h1 {
     color: silver;
 }
 
-/*   -------- N a v    b a r ----------   */
+/*   -------- N a v    B a r ----------   */
 nav {
     display: flex;
     flex-direction: row;
@@ -58,6 +68,7 @@ nav {
     top: 0;
     height: min-content;
     background-color: darkslategrey;
+    z-index: 1;
 }
 
 nav ul {
@@ -65,11 +76,16 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline-block;
 } 
 
 nav li {
-    display: inline-block;
     font-weight: bold;
+    background-color: rgb(41, 66, 66);
+    margin: 0;
+    float: left;
+    border-left: 0.5px solid dimgray;
+    border-right: 0.5px solid dimgray;
 }
 
 nav li a {
@@ -81,7 +97,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: black;
+    background-color: rgba(255, 0, 34, 1)
 }
 
 .active {
@@ -91,7 +107,8 @@ nav li a:hover {
 #Home {
     float: right;
 }
-/*  ------------   C e n t r a l  --------------   */
+
+/*  ------------   H o m e   S e c t i o n  --------------   */
 .side-bar {
     width: 33%;
 }
@@ -99,10 +116,22 @@ nav li a:hover {
 .Main-box {
     height: inherit;
     width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-box {
+    width: 800px;
+    height: 600px;
+    background-image: url(images/board-1273128_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid snow;
 }
 
 /*  -----------  S i d e   b a r     P r o p r e r t i e s  ----------  */
-
 .side-bar .list-box {
     margin: 10px 5px;
     width: 200px;
@@ -138,11 +167,86 @@ nav li a:hover {
 }
 
 .side-bar img:hover {
-    width: 70px;
-    height: 70px;
-    box-shadow: 0 0 10px gold;
+    box-shadow: 0 0 18px gold;
 }
 
 .list-box:hover {
     background-color: black;
+}
+
+/* --------------- F o o t e r    P r o p e r t i e s ---------------- */
+.footer-container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box {
+    vertical-align: middle;
+    height: inherit;
+    width: 200px;
+}
+
+.footer-box img {
+    margin-top: 30px;
+}
+
+/* -------------  G a l l e r y     G r i d  ------------- */
+.grid-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    background-color: black;
+}
+
+.grid-item {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.grid-item img {
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.8;
+    width: 100%;
+    height: 400px;
+}
+
+.grid-item img:hover {
+    opacity: 1;
+    box-shadow: 0 0 8px goldenrod, 0 0 12px snow;
+}
+
+/* ---------       P r o f i l e    B o x     ----------- */
+.profile-container {
+    margin: 150px 0;
+    width: 850px;
+    background-color: rgb(0, 0, 37);
+    border: snow 1px solid;
+    box-shadow: 0 0 8px goldenrod;
+}
+
+.profile-img {
+    float: left;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid snow;
+    box-shadow: 0 0 8px goldenrod;
+    background-image: url(images/man-1253004_640.jpg);
+    background-size: cover;
+}
+
+.profile-formattation p,
+.profile-formattation h3,
+.profile-formattation ul li {
+    text-shadow: 0 0 9px red;
+}
+
+.profile-container ul {
+    list-style-type: none;
+}
+
+.profile-container h3 {
+    margin-left: 15px;
 }
