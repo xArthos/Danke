@@ -305,7 +305,7 @@ ul li a:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: left;
+    justify-content: flex-start;
     flex-direction: row;
     padding: 10px 0;
 }
@@ -314,7 +314,7 @@ ul li a:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: right;
+    justify-content: flex-end;
     flex-direction: row;
     padding: 10px 0;
 }
