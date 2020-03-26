@@ -6,18 +6,18 @@
         - 46 Header
         - 74 Footer
         - 93 Titles and text formattation
-        - 175 Ul
-        - 220 Positions
-        - 278 Flex Proprieties
-        - 359 Backgrounds
-        - 397 BoxImages
-        - 441 Boxes
-        - 501 Bars
-        - 532 Borders
-        - 542 Hover
-        - 548 Scrollbar
-        - 554 Buttons
-        - 574 Media CSS */
+        - 176 Ul
+        - 221 Positions
+        - 279 Flex Proprieties
+        - 360 Backgrounds
+        - 398 BoxImages
+        - 442 Boxes
+        - 503 Bars
+        - 534 Borders
+        - 544 Hover
+        - 550 Scrollbar
+        - 556 Buttons
+        - 576 Media CSS */
 
 /*                         Main                  */
 
@@ -107,6 +107,7 @@ a {
 }
 
 h1 {
+    text-align: center;
     font-size: 58px;
     padding: 0;
     margin: 0;
@@ -474,6 +475,7 @@ ul li a:hover {
 }
 
 .kurs-box {
+    height: 400px;
     background: black;
     border: 2px solid silver;
     box-shadow: 0 0 8px silver;
