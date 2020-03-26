@@ -575,7 +575,10 @@ button:hover {
 
 /*                Media CSS                */
 
-@media (Max-width: 360px) {}
+@media (max-width: 400px) {
+    .mobile {
+        flex-wrap: wrap;}
+}
 
 .maininf-box {
     left: 0;
@@ -589,3 +592,4 @@ button:hover {
     bottom: 0;
     margin: 1rem;
 }
+
