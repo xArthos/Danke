@@ -2,22 +2,22 @@
 
 /* Row-Number   CSS-Target
         - 22 Main
-        - 43 Font Imported
-        - 47 Header
-        - 75 Footer
-        - 94 Titles and text formattation
-        - 177 Ul
-        - 222 Positions
-        - 280 Flex Proprieties
-        - 357 Backgrounds
-        - 395 BoxImages
-        - 439 Boxes
-        - 500 Bars
-        - 531 Borders
-        - 541 Hover
-        - 547 Scrollbar
-        - 553 Buttons
-        - 573 Media CSS */
+        - 44 Font Imported
+        - 48 Header
+        - 68 Footer
+        - 87 Titles and text formattation
+        - 170 Ul
+        - 215 Positions
+        - 273 Flex Proprieties
+        - 350 Backgrounds
+        - 388 BoxImages
+        - 431 Boxes
+        - 495 Bars
+        - 526 Borders
+        - 536 Hover
+        - 542 Scrollbar
+        - 548 Buttons
+        - 568 Media CSS */
 
 /*                         Main                  */
 
@@ -29,6 +29,7 @@
 html {
     background-color: dimgray;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,28 +47,20 @@ body {
 
 /*                          Header                   */
 
-.header {
-    background: black;
-    color: silver;
-    margin: 0;
+header {
+    background: black; 
     padding: 30px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
-.header div a {
-    background: none;
-    text-decoration: none;
+header div a {
     color: silver;
     border: 1px solid silver;
-    margin: 0 10px 0 0;
     padding: 8px 10px;
     font-weight: bold;
 }
 
-.header div a:hover {
+header div a:hover {
     background: dimgray;
     color: black;
 }
@@ -324,10 +317,10 @@ ul li a:hover {
 .flexrow-sa {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     align-items: center;
     flex-direction: row;
     padding: 10px 0;
-    text-align: center;
 }
 
 .flexrow-sb {
@@ -397,7 +390,6 @@ ul li a:hover {
 .imgbox {
     width: 400px;
     height: 400px;
-    margin: 70px 50px 50px 50px;
     border-radius: 50%;
     border: 5px solid silver;
 }
@@ -438,6 +430,10 @@ ul li a:hover {
 
 /*                     Boxes                       */
 
+#About {
+    height: 800px;
+}
+
 .txt-box {
     width: 200px;
 }
@@ -461,7 +457,6 @@ ul li a:hover {
     border-radius: 10%;
     border: 2px solid silver;
     box-shadow: 0 0 8px silver;
-    margin: 100px 0px 100px 150px;
 }
 
 .work-box {
@@ -588,4 +583,3 @@ button:hover {
     bottom: 0;
     margin: 1rem;
 }
-
