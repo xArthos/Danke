@@ -3,21 +3,21 @@
 /* Row-Number   CSS-Target
         - 22 Main
         - 43 Font Imported
-        - 46 Header
-        - 74 Footer
-        - 93 Titles and text formattation
-        - 176 Ul
-        - 221 Positions
-        - 279 Flex Proprieties
-        - 360 Backgrounds
-        - 398 BoxImages
-        - 442 Boxes
-        - 503 Bars
-        - 534 Borders
-        - 544 Hover
-        - 550 Scrollbar
-        - 556 Buttons
-        - 576 Media CSS */
+        - 47 Header
+        - 75 Footer
+        - 94 Titles and text formattation
+        - 177 Ul
+        - 222 Positions
+        - 280 Flex Proprieties
+        - 357 Backgrounds
+        - 395 BoxImages
+        - 439 Boxes
+        - 500 Bars
+        - 531 Borders
+        - 541 Hover
+        - 547 Scrollbar
+        - 553 Buttons
+        - 573 Media CSS */
 
 /*                         Main                  */
 
@@ -43,6 +43,7 @@ body {
 /*                     Font Imported                        */
 
 @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
 /*                          Header                   */
 
 .header {
@@ -338,10 +339,6 @@ ul li a:hover {
     padding: 10px 0;
 }
 
-.flex-box {
-    display: flow-root;
-}
-
 .flex-txt {
     display: flex;
     color: silver;
@@ -575,9 +572,8 @@ button:hover {
 
 /*                Media CSS                */
 
-@media (max-width: 400px) {
-    .mobile {
-        flex-wrap: wrap;}
+@media (max-width: 300px) {
+    
 }
 
 .maininf-box {
