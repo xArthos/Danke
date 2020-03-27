@@ -606,6 +606,22 @@ button:hover {
     }
 }
 
+@media all and (max-width:150px) {
+
+    .flexrow-c {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .flexrow-sb {
+        flex-direction: column;   
+    }
+}
+
 .maininf-box {
     left: 0;
     bottom: 3px;
