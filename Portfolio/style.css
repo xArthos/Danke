@@ -289,10 +289,9 @@ ul li a:hover {
 
 .flexrow-c {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     justify-content: center;
-    flex-direction: row;
     padding: 10px 0;
 }
 
@@ -301,7 +300,6 @@ ul li a:hover {
     align-items: center;
     text-align: center;
     justify-content: flex-start;
-    flex-direction: row;
     padding: 10px 0;
 }
 
@@ -310,7 +308,6 @@ ul li a:hover {
     align-items: center;
     text-align: center;
     justify-content: flex-end;
-    flex-direction: row;
     padding: 10px 0;
 }
 
@@ -318,8 +315,7 @@ ul li a:hover {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    align-items: center;
-    flex-direction: row;
+    align-items: stretch;
     padding: 10px 0;
 }
 
@@ -328,7 +324,6 @@ ul li a:hover {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    flex-direction: row;
     padding: 10px 0;
 }
 
@@ -341,10 +336,7 @@ ul li a:hover {
 }
 
 .item {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
+    margin: 27px;
 }
 
 /*                     Backgrounds                         */
@@ -430,15 +422,12 @@ ul li a:hover {
 
 /*                     Boxes                       */
 
-#About {
-    height: 800px;
-}
-
 .txt-box {
     width: 200px;
 }
 
 .container {
+    margin: auto;
     width: 1200px;
 }
 
@@ -467,10 +456,12 @@ ul li a:hover {
 }
 
 .kurs-box {
-    height: 400px;
+    padding: 5px;
     background: black;
     border: 2px solid silver;
     box-shadow: 0 0 8px silver;
+    margin: 20px;
+    width: 250px;
 }
 
 .box-desc {
@@ -567,8 +558,30 @@ button:hover {
 
 /*                Media CSS                */
 
-@media (max-width: 300px) {
-    
+@media screen and (max-width: 600px) {
+
+    .flexrow-c {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .container {
+        width: 100%;
+    }
 }
 
 .maininf-box {
