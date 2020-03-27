@@ -558,7 +558,7 @@ button:hover {
 
 /*                Media CSS                */
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 1000px) {
 
     .flexrow-c {
         flex-direction: column;
@@ -568,19 +568,41 @@ button:hover {
     .container {
         width: 100%;
     }
+
+    .flexrow-sb {
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
+
+    .flexrow-c {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .container {
         width: 100%;
     }
+
+    .flexrow-sb {
+        flex-direction: column; 
+    }
 }
 
-@media only screen and (max-width:500px) {
+@media all and (max-width:500px) {
+
+    .flexrow-c {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .container {
         width: 100%;
+    }
+
+    .flexrow-sb {
+        flex-direction: column;   
     }
 }
 
