@@ -1361,9 +1361,9 @@ button.primary_btn {
 	transition: 0.3s;
 }
 
-/* .skills_item img {
+.skills_item img {
     margin-bottom: 45px
-} */
+}
 
 .skills_item h4 {
     color: #e65613;
@@ -2941,16 +2941,10 @@ animation-fill-mode: both;
 @media(max-width: 580px) {
     .job-status {
 	right: unset;
-}
+    }
 
-.row {
+    .row {
 	margin-right: unset;
 	margin-left: unset;
+    }
 }
-}
-
-
-
-
-
-
