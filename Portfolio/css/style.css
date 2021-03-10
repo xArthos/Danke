@@ -1,23 +1,160 @@
 /* -----   Legend CSS   ------ */
 /*
-    Row-Number   CSS-Target
-        - 22 Main
-        - 44 Font Imported
-        - 48 Header
-        - 68 Footer
-        - 87 Titles and text formattation
-        - 170 Ul
-        - 215 Positions
-        - 273 Flex Proprieties
-        - 350 Backgrounds
-        - 388 BoxImages
-        - 431 Boxes
-        - 495 Bars
-        - 526 Borders
-        - 536 Hover
-        - 542 Scrollbar
-        - 548 Buttons
-        - 568 Media CSS
+?    Row-Number  ~  CSS-Target
+
+?    167     ~    General
+!    174     ~    1 - Main
+*    178     ~      1.1 - Main: Font-Import
+*    185     ~      1.2 - Main: Body
+*    203     ~      1.3 - Main: Scrollbar
+*    236     ~      1.4 - Main: Heading
+*    271     ~      1.5 - Main: List
+*    288     ~      1.6 - Main: Anchor
+*    304     ~      1.7 - Main: Paragraph
+*    313     ~      1.8 - Main: Button
+*    403     ~      1.9 - Main: Animation Trigger
+!    416     ~    2 - Spacing
+!    441     ~    3 - Backgrounds
+*
+*
+?    486     ~    Elements
+!    493     ~    4 - Element: Background Video
+!    511     ~    5 - Element: Main Title
+!    582     ~    6 - Element: Loader
+!    644     ~    7 - Element: Home Banners 
+*    648     ~      7.1 - Home Title
+*    182     ~      7.2 - Home Banner Image
+!    721     ~    8 - Element: Circle Animated
+!    782     ~    9 - Element: Map
+!    796     ~    10 - Element: Navbar
+*    800     ~      10.1 - Default Navabr
+*    898     ~      10.2 - Fixed Navbar
+!    951     ~    11 - Element: Border Corner
+!    995     ~    12 - Element: Working Process Icons
+!    1034    ~    13 - Element: Owl Carousel
+!    1065    ~    14 - Element: Star Rating
+!    1100    ~    15 - Element: Form
+!    1150    ~    16 - Element: Contact
+!    1228    ~    17 - Element: Portfolio Item
+!    1312    ~    18 - Element: Brands Item
+!    1333    ~    19 - Element: Timeline
+!    1575    ~    20 - Element: Chart
+!    1714    ~    21 - Element: Progress Bar
+*
+*
+?    1787    ~    Sections
+!    1794    ~    22 - Section: Header Area 
+!    1831    ~    23 - Section: (Home) Banner Area
+*    1835    ~      23.1 - Home Banner Area
+*    1911    ~      23.2 - Banner Area
+!    1985    ~    24 - Section: Statistics Area
+!    2027    ~    25 - Section: About Area
+!    2057    ~    26 - Section: Skills Area
+!    2128    ~    27 - Section: Work Process Area
+!    2256    ~    28 - Section: CV Area
+!    2269    ~    29 - Section: References Area
+!    2344    ~    30 - Section: Portfolio Area
+!    2438    ~    31 - Section: Footer Area
+*
+*
+?    2501    ~    Responsive CSS
+!    2506    ~    32 - Responsive: Max-Width
+*    2510    ~      32.1 - Max 1620px
+*
+*    2521    ~      32.2 - Max 1480px
+?    2526    ~          Sections
+!    2530    ~              32.2.1 - About Section
+*
+*    2544    ~      32.3 Max 1200px
+?    2549    ~          Main
+!    2553    ~              32.3.1 - Spacing
+?    2567    ~          Sections
+!    2571    ~              32.3.2 - Section: Header Area
+!    2582    ~              32.3.3 - Section: (Home) Banner Area
+*    2586    ~                  32.3.3.1 - Home Banner
+*    2602    ~                  32.3.3.2 - Banner Area
+!    2613    ~              32.3.4 - Section: Skills Area
+?    2625    ~          Element
+!    2629    ~              32.3.5 - Element: Main Title
+*
+*    2638    ~      32.4 - Max 1199px
+*
+*    2649    ~      32.5 - Max 1024px
+*
+*    2660    ~      32.6 - Max 991px
+?    2665    ~          Sections
+!    2669    ~              32.6.1 - Section: Header Area
+!    2718    ~              32.6.2 - Section: Statistics Area
+!    2726    ~              32.6.3 - Section: About Area
+!    2740    ~              32.6.4 - Section: (Home) Banner Area
+*    2744    ~                  32.6.4.1 - Home Banner Area
+*    2776    ~                  32.6.4.2 - Banner Area
+!    2787    ~              32.6.5 - Section: Portfolio Area
+!    2798    ~              32.6.6 - Section: Brands Area
+!    2806    ~              32.6.7 - Section: Footer Area
+?    2825    ~          Elements
+!    2829    ~              32.6.8 - Element: Navbar Toggler
+!    2868    ~              32.6.9 - Element: Navbar
+!    2887    ~              32.6.10 - Element: Main Title
+!    2895    ~              32.6.11 - Element: Chart
+!    2903    ~              32.6.12 - Element: Form
+*
+*    2912    ~      32.7 - Max 767px
+?    2917    ~          Sections
+!    2921    ~              32.7.1 - Section: Home Banner Area
+!    2963    ~              32.7.2 - Section: Work Process Area
+!    3000    ~              32.7.3 - Section: Portfolio Area
+?    3011    ~          Elements
+!    3015    ~              32.7.4 - Element: Main Title
+!    3033    ~              32.7.5 - Element: Statistics Item
+!    3041    ~              32.7.6 - Element: Timeline
+!    3109    ~              32.7.7 - Element: Chart
+!    3117    ~              32.7.8 - Element: Portfolio Item
+*
+*    3127    ~      32.8 - Max 575px
+?    3132    ~          Main
+!    3136    ~              32.8.1 - Spacing
+?    3153    ~          Sections
+!    3157    ~              32.8.2 - Section: Header Area
+!    3167    ~              32.8.3 - Section: Home Banner Area
+?    3191    ~          Elements
+!    3195    ~              32.8.4 - Element: Main Title
+!    3206    ~              32.8.5 - Element: Chart
+!    3218    ~              32.8.6 - Element: Progress
+*
+*    3231    ~      32.9 Max 480px
+?    3236    ~          Sections
+!    3240    ~              32.9.1 - Section: Header Area
+!    3248    ~              32.9.2 - Section: (Home) Banner Area
+*    3252    ~                  32.9.2.1 - Home Banner Area
+*    3264    ~                  32.9.2.2 - Banner Area
+?    3275    ~          Elements
+!    3279    ~              32.9.3 - Element: Portfolio Item
+*
+*    3289    ~      32.10 - Min 992px ~ Max 1200px
+*
+!    3305    ~    33 - Responsive: Min-Width
+*    3309    ~      33.1 - Min 600px
+?    3314    ~          Main
+!    3318    ~              33.1.1 - Spacing
+?    3329    ~          Sections
+!    3333    ~              33.1.2 - Section: References Area
+*
+*    3343    ~      33.2 - Min 768px
+*
+*    3363    ~      33.3 - Min 992px
+?    3368    ~          Sections
+!    3372    ~              33.3.1 - Section: References Area
+?    3389    ~          Elements
+!    3393    ~              33.3.2 - Element: Navbar
+*
+*    3420    ~      33.4 - Min 1024px
+*
+*    3431    ~      33.5 - Min 1200px
+?    3436    ~          Main
+!    3440    ~              33.5.1 - Spacing
+?    3454    ~          Sections
+!    3458    ~              33.5.2 - Section: References Area
 */
 /* ---------------------------- */
 
@@ -26,17 +163,27 @@
 
 
 
-/*?                      -# GENERAL #-                          */
+/*? =============================================================================
+/*?                             -# GENERAL #-
+/*? =============================================================================
 
 
-/*!                   # Main                          */
 
-/** #Main: Font-Import */
+
+/*! =============================================================================
+/*!         # 1 - Main
+/*! =============================================================================
+
+/** =============================================================================
+/** # 1.1 Main: Font-Import
+/** ===========================================================================*/
 
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 
 
-/** #Main: Body */
+/** =============================================================================
+/** # 1.2 Main: Body
+/** ===========================================================================*/
 
 body {
     font-size: 14px;
@@ -52,7 +199,9 @@ body {
 }
 
 
-/** #Main: Scrollbar */
+/** =============================================================================
+/** # 1.3 Main: Scrollbar
+/** ===========================================================================*/
 
 * {
     scrollbar-color: #e68413 rgb(0, 0, 0);
@@ -83,7 +232,9 @@ body {
 }
 
 
-/** #Main: Heading */
+/** =============================================================================
+/** # 1.4 Main: Heading
+/** ===========================================================================*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: roboto, sans-serif;
@@ -116,7 +267,9 @@ h6 {
 }
 
 
-/** #Main: List */
+/** =============================================================================
+/** # 1.5 Main: List
+/** ===========================================================================*/
 
 ul {
     list-style-type: none;
@@ -131,7 +284,9 @@ ul {
 }
 
 
-/** #Main: Anchor */
+/** =============================================================================
+/** # 1.6 Main: Anchor
+/** ===========================================================================*/
 
 a {
     text-decoration: none;
@@ -145,14 +300,18 @@ a:focus {
 }
 
 
-/** #Main: Paragraph */
+/** =============================================================================
+/** # 1.7 Main: Paragraph
+/** ===========================================================================*/
 
 p {
     color: white !important;
 }
 
 
-/** #Main: Button */
+/** =============================================================================
+/** # 1.8 Main: Button
+/** ===========================================================================*/
 
 button:focus {
     outline: none;
@@ -188,6 +347,21 @@ button.primary_btn {
     color: #fff
 }
 
+.primary_btn::before {
+	content: '';
+	display: inline-block;
+	width: 60px;
+	height: 15px;
+	border-color: #ff9100;
+	border-style: solid;
+	border-width: 5px 5px 0 5px;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
 .primary_btn2 {
     font-size: 13px;
     font-weight: 500;
@@ -214,8 +388,20 @@ button.primary_btn {
     transition: all .4s ease 0s
 }
 
+.custom-btn span::after {
+	content: '';
+	display: block;
+	border-bottom: 5px solid #ff9100;
+	width: 57px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
 
-/** #Main: Animation Trigger */
+
+/** =============================================================================
+/** # 1.9 Main: Animation Trigger
+/** ===========================================================================*/
 
 .animation {
     opacity: 0;
@@ -226,7 +412,9 @@ button.primary_btn {
 
 
 
-/*!                   # Spacing                       */
+/*! =============================================================================
+/*!         # 2 - Spacing
+/*! ===========================================================================*/
 
 .mt-35 {
     margin-top: 35px
@@ -249,7 +437,9 @@ button.primary_btn {
 
 
 
-/*!                   # Backgrounds                   */
+/*! =============================================================================
+/*!         # 3 - Backgrounds
+/*! ===========================================================================*/
 
 .primary_btn2:before,
 .bg-dot-working-process-end,
@@ -283,15 +473,25 @@ button.primary_btn {
     background: linear-gradient(90deg, #ed2360 0%, #e68413 100%);
 }
 
+.bg-base {
+    background: linear-gradient(90deg, #e68413 0%, #ed2360 100%);
+}
 
 
 
 
 
-/*?                      -# ELEMENTS #-                         */
+
+/*? =============================================================================
+/*?                             -# ELEMENTS #-
+/*? =============================================================================
 
 
-/*!                   # Element: Background Video     */
+
+
+/*! =============================================================================
+/*!         # 4 - Element: Background Video
+/*! ===========================================================================*/
 
 #bg-Video {
     position: fixed;
@@ -307,7 +507,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Main Title           */
+/*! =============================================================================
+/*!         # 5 - Element: Main Title
+/*! ===========================================================================*/
 
 .main-title {
     margin-bottom: 80px
@@ -358,10 +560,17 @@ button.primary_btn {
     left: -1px;
     bottom: 0;
 }
+
 .main-title h2 span {
     font-weight: 200;
     padding-bottom: 15px;
     display: block;
+}
+
+.main-title .job-status {
+	position: absolute;
+	right: 0;
+	top: 50px;
 }
 
 
@@ -369,7 +578,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Loader               */
+/*! =============================================================================
+/*!         # 6 - Element: Loader
+/*! ===========================================================================*/
 
 .loader {
     position: fixed;
@@ -429,9 +640,13 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Home Banners         */
+/*! =============================================================================
+/*!         # 7 - Element: Home Banners 
+/*! ===========================================================================*/
 
-/** Home Title */
+/** =============================================================================
+/** # 7.1 Home Title
+/** ===========================================================================*/
 
 #title {
     -moz-animation: titleAnimation 1s ease-in both;
@@ -463,7 +678,10 @@ button.primary_btn {
     }
 }
 
-/** Home Banner Image */
+/** =============================================================================
+/** # 7.2 Home Banner Image
+/** ===========================================================================*/
+
 #homeBannerImage {
     -moz-animation: bannerAnimation 1.2s ease-in both;
     /* Firefox */
@@ -499,7 +717,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Circle Animated      */
+/*! =============================================================================
+/*!         # 8 - Element: Circle Animated
+/*! ===========================================================================*/
 
 #circle-1 {
     position: absolute;
@@ -553,7 +773,14 @@ button.primary_btn {
     }
 }
 
-/* map */
+
+
+
+
+
+/*! =============================================================================
+/*!         # 9 - Element: Map
+/*! ===========================================================================*/
 
 #map {
     height: 400px;
@@ -565,9 +792,13 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Navbar               */
+/*! =============================================================================
+/*!         # 10 - Element: Navbar
+/*! ===========================================================================*/
 
-/** Normal Navabr */
+/** =============================================================================
+/** # 10.1 Default Navabr
+/** ===========================================================================*/
 
 .navbar {
     background: 0 0;
@@ -663,7 +894,9 @@ button.primary_btn {
 }
 
 
-/** Fixed Navbar */
+/** =============================================================================
+/** # 10.2 Fixed Navbar
+/** ===========================================================================*/
 
 .header_section.navbar_fixed .main_menu {
     position: fixed;
@@ -714,7 +947,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Border Corner        */
+/*! =============================================================================
+/*!         # 11 - Element: Border Corner
+/*! ===========================================================================*/
 
 .border-corner-reverse::before, .border-corner-reverse::after,
 .border-corner::before, .border-corner::after {
@@ -756,7 +991,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: W-Process Icons      */
+/*! =============================================================================
+/*!         # 12 - Element: Working Process Icons
+/*! ===========================================================================*/
 
 .icon {
     display:inline-block;
@@ -793,7 +1030,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Owl Carousel         */
+/*! =============================================================================
+/*!         # 13 - Element: Owl Carousel
+/*! ===========================================================================*/
 
 .content .image {
     background: url("bg.png") no-repeat;
@@ -822,7 +1061,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Star Rating          */
+/*! =============================================================================
+/*!         # 14 - Element: Star Rating
+/*! ===========================================================================*/
 
 .star_rating {
     list-style-type: none;
@@ -855,7 +1096,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Form                 */
+/*! =============================================================================
+/*!         # 15 - Element: Form
+/*! ===========================================================================*/
 
 .form-contact .form-group {
     margin-bottom: 15px
@@ -866,7 +1109,7 @@ button.primary_btn {
 	right: unset;
 }
 
-.form-contact .form-group .custom-btn span::after, .title-main-page p::after {
+.form-contact .form-group .custom-btn span::after {
 	margin-left: 70px;
 	margin-right: unset;
 }
@@ -903,7 +1146,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Contact              */
+/*! =============================================================================
+/*!         # 16 - Element: Contact
+/*! ===========================================================================*/
 
 .contact-info {
     margin-bottom: 12px
@@ -979,7 +1224,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Portfolio Item       */
+/*! =============================================================================
+/*!         # 17 - Element: Portfolio Item
+/*! ===========================================================================*/
 
 .portfolio-item {
     position: relative;
@@ -1061,7 +1308,9 @@ button.primary_btn {
 
 
 
-/*!                   # Element: Brands Item          */
+/*! =============================================================================
+/*!         # 18 - Element: Brands Item
+/*! ===========================================================================*/
 
 .single-brand-item {
     margin: 0 auto
@@ -1080,10 +1329,470 @@ button.primary_btn {
 
 
 
-/*?                      -# SECTIONS #-                         */
+/*! =============================================================================
+/*!         # 19 - Element: Timeline
+/*! ===========================================================================*/
+
+.timeline-bg{
+    background: #f4f5f9;
+}
+
+.main-timeline{
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0;
+}
+
+.main-timeline:before{
+    content: "";
+    width: 3px;
+    height: 80%;
+    background: linear-gradient(to top, #e68413 0%, #ed2360 100%);;
+    position: absolute;
+    top: 1px;
+    left: 50%;
+}
+
+.main-timeline .date{
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin: 0 0 8px;
+    font-family: sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.main-timeline .description{
+    margin-top: 8px;
+}
+
+.main-timeline ul.description li.right::after {
+    list-style-type: circle;
+	content: " ⦾";
+	margin: 0 .5rem 0 0;
+	color: #ff7a18;
+}
+
+.main-timeline .timeline-content{
+    width: 85%;
+    padding: 18px 30px;
+    text-align: right;
+    float: left;
+    border: 1px solid transparent;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.main-timeline .timeline-icon{
+    width: 100px;
+    height: 100px;
+    background: #ff6000;
+    position: absolute;
+    top: 0px;
+    right: -60px;
+    z-index: 1;
+    border-radius: 100%;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.1);
+}
+
+.main-timeline .timeline-icon:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ce0000;
+    position: absolute;
+    top: 15%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease 0s;
+}
+
+.main-timeline .timeline{
+    width: 50%;
+    clear: both;
+    position: relative;
+}
+
+.main-timeline .timeline:before,
+.main-timeline .timeline:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-timeline .timeline:first-child:before,
+.main-timeline .timeline:last-child:before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #cfcdcd;
+    box-sizing: content-box;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 2px #cfcdcd;
+    position: absolute;
+    top: -54px;
+    right: -11px;
+    transform: rotate(45deg);
+}
+
+.main-timeline .timeline:last-child:before{
+    top: auto;
+    bottom: -54px;
+}
+
+.main-timeline .timeline:last-child:nth-child(even):before{
+    right: auto;
+    left: -11px;
+}
+
+.main-timeline .timeline:nth-child(2n),
+.main-timeline .timeline:nth-child(2n) .timeline-content{
+    float: right;
+    text-align: left;
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content:before{
+    left: -7.3px;
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content:after{
+    left: -14%;
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-icon{
+    right: 0;
+    left: -65px;
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-icon:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease 0s;
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-icon:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ce0000;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease 0s;
+}
+
+.main-timeline .timeline:hover .timeline-content:before{
+    background: #fc6f5c;
+    border-color: #fc6f5c;
+}
+
+.main-timeline .timeline:hover .date{
+    color: #b51818;
+}
+
+.main-timeline .title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.main-timeline .timeline:hover .title{
+    color: #ff6000;
+}
+
+.timeline.actual .timeline-icon:after, 
+.main-timeline .timeline:hover .timeline-icon:after{
+    background: linear-gradient(-45deg, #ff9900, #ff2441);;
+    background-size: 300% 300%;
+    animation: bg-gradient 5s ease infinite;
+}
+
+.timeline-icon {
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+}
+
+.timeline-icon:after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    top: 15%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.timeline-icon img {
+    width: 95px;
+    border-radius: 100%;
+}
+
+@-webkit-keyframes bg-gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+@-moz-keyframes bg-gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+@keyframes bg-gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
 
 
-/*!                   # Section: Header Area          */
+
+
+
+
+/*! =============================================================================
+/*!         # 20 - Element: Chart
+/*! ===========================================================================*/
+
+.chart-bar > .item-progress,
+.chart-bar > .percent {
+    -webkit-transition: all 1.3s ease;
+    -moz-transition: all 1.3s ease;
+    -o-transition: all 1.3s ease;
+    transition: all 1.3s ease;
+}
+
+.chart-bar {
+    border-radius: 2px;
+    display: block;
+    height: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.chart-bar > .item-progress {
+    border-radius: 2px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1%;
+}
+
+.chart-bar > .percent {
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    right: calc(100% - 40px);
+    width: 40px;
+    z-index: 10;
+}
+
+.chart-bar > .percent,
+.chart-circle > .percent {
+    line-height: 40px !important;
+    top: 50%;
+    text-align: center;
+}
+
+.chart-circle {
+    position: relative;
+    text-align: center;
+}
+
+.chart-circle .chart {
+    background-color: #ce003e88;
+    border-radius: 50%;
+    height: 120px;
+    margin: 0 auto;
+    padding: 6px;
+    position: relative;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 120px;
+}
+
+.chart-circle .chart > .item-progress {
+    -webkit-transition: all 1.3s ease;
+    -moz-transition: all 1.3s ease;
+    -o-transition: all 1.3s ease;
+    transition: all 1.3s ease;
+    display: inline-block;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 108px;
+}
+
+.chart-circle .chart > .item-progress:before {
+    border-radius: 106px;
+    background: linear-gradient(to top, #e68413 0%, #ed2360 100%);
+    content: '';
+    display: block;
+    height: 108px;
+    width: 108px;
+}
+
+.chart-circle > .percent {
+    display: block;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    margin-top:- 20px;
+    position: absolute;
+    width: 40px;
+}
+
+.chart-rotating-circle {
+    position: absolute;
+    left: 10px;
+    z-index: -1;
+    top: -10px;
+}
+
+.chart-rotating-circle.clock-rotation {
+    -moz-animation: rotateRight 4.5s linear both infinite;
+    /* Firefox */
+    -webkit-animation: rotateRight 4.5s linear both infinite;
+    /* Safari and Chrome */
+    -o-animation: rotateRight 4.5s linear both infinite;
+    /* Opera */
+    animation: rotateRight 4.5s linear both infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.chart-rotating-circle.clock-reverse-rotation {
+    -moz-animation: rotateLeft 5s linear both infinite;
+    /* Firefox */
+    -webkit-animation: rotateLeft 5s linear both infinite;
+    /* Safari and Chrome */
+    -o-animation: rotateLeft 5s linear both infinite;
+    /* Opera */
+    animation: rotateLeft 5s linear both infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.box-shadow-wide {
+	box-shadow: 0 23px 40px #ff660033 !important;
+}
+
+.font-alt {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    color: #ff6600;
+}
+
+
+
+
+
+
+/*! =============================================================================
+/*!         # 21 - Element: Progress Bar
+/*! ===========================================================================*/
+
+.progress {
+	background-color: #ce003e88;
+	border-radius: 1rem;
+	height: 1.5rem;
+	margin-bottom: 1.5rem;
+	overflow: inherit;
+	position: relative;
+	text-align: right;
+}
+
+.progress-bar {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+	display: -ms-flexbox;
+	display: flex;
+    border-radius: 1rem;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	background: linear-gradient(90deg, #e68413 0%, #ed2360 100%);;
+	transition: width .6s ease;
+    width: 0%;
+}
+
+.progress .progress-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding-left: 0.8125rem;
+	padding-right: 0.8125rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.progress .progress-text span.title {
+    font-weight: 700;
+    color: #750027;
+    font-size: 16px;
+}
+
+.progress .progress-text span.percentuage {
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+}
+
+.progress-lines-container {
+    border-radius: 16px;
+    background-color: transparent;
+	border-radius: 20px;
+	padding: 1.875rem;
+	position: relative;
+	transition: box-shadow .3s ease-in-out;
+}
+
+
+
+
+
+
+/*? =============================================================================
+/*?                             -# SECTIONS #-
+/*? =============================================================================
+
+
+
+
+/*! =============================================================================
+/*!         # 22 - Section: Header Area 
+/*! ===========================================================================*/
 
 .header_section {
     position: absolute;
@@ -1118,9 +1827,13 @@ button.primary_btn {
 
 
 
-/*!                   # Section: (Home) Banner Area   */
+/*! =============================================================================
+/*!         # 23 - Section: (Home) Banner Area
+/*! ===========================================================================*/
 
-/** Home Banner Area */
+/** =============================================================================
+/** # 23.1 Home Banner Area
+/** ===========================================================================*/
 
 .home_banner_section {
     background: url(../img/banner/home-banner-orange-red.png) no-repeat top center;
@@ -1194,7 +1907,9 @@ button.primary_btn {
 }
 
 
-/** Banner Area */
+/** =============================================================================
+/** # 23.2 Banner Area
+/** ===========================================================================*/
 
 .banner_section {
     position: relative;
@@ -1225,7 +1940,7 @@ button.primary_btn {
     font-weight: 700
 }
 
-/* .banner_section .banner_inner .banner_content .page_link a {
+.banner_section .banner_inner .banner_content .page_link a {
     font-size: 12px;
     text-transform: uppercase;
     color: #9c002f;
@@ -1259,14 +1974,16 @@ button.primary_btn {
 
 .banner_section .banner_inner .banner_content .page_link a:last-child:before {
     display: none
-} */
+}
 
 
 
 
 
 
-/*!                   # Section: Statistics Area      */
+/*! =============================================================================
+/*!         # 24 - Section: Statistics Area
+/*! ===========================================================================*/
 
 .statistics_section {
     position: relative;
@@ -1306,7 +2023,9 @@ button.primary_btn {
 
 
 
-/*!                   # Section: About Area           */
+/*! =============================================================================
+/*!         # 25 - Section: About Area
+/*! ===========================================================================*/
 
 .about_section {
     position: relative;
@@ -1334,7 +2053,9 @@ button.primary_btn {
 
 
 
-/*!                   # Section: Skills Area        */
+/*! =============================================================================
+/*!         # 26 - Section: Skills Area
+/*! ===========================================================================*/
 
 .skills_section {
     padding-bottom: 110px;
@@ -1356,6 +2077,7 @@ button.primary_btn {
 	margin-bottom: 15px;
 }
 
+.skills_item:hover img,
 .skills_item:hover svg {
 	filter: drop-shadow(0 0 5px #dc143c);
 	transition: 0.3s;
@@ -1402,7 +2124,9 @@ button.primary_btn {
 
 
 
-/*!                   # Section: Work Process Area    */
+/*! =============================================================================
+/*!         # 27 - Section: Work Process Area
+/*! ===========================================================================*/
 
 .work_process_section {
     padding-bottom: 110px;
@@ -1424,11 +2148,11 @@ button.primary_btn {
     -webkit-text-fill-color: transparent;
 }
 
-.work-process > .item:last-child > .item-content:after {
+.work-process > .item:last-child > .work-process-item-content:after {
     display: none;
 }
 
-.work-process > .item > .item-content {
+.work-process > .item > .work-process-item-content {
     height: 102px;
     margin-top: 102px;
     position: relative;
@@ -1436,24 +2160,24 @@ button.primary_btn {
     z-index: 0;
 }
 
-.work-process > .item > .item-content.mt-0:after {
+.work-process > .item > .work-process-item-content.mt-0:after {
     top: 50%;
 }
 
-.work-process > .item > .item-content.mt-0 > .icon-arrow {
+.work-process > .item > .work-process-item-content.mt-0 > .icon-arrow {
     left: auto;
     margin-right: -32px;
     right: 0;
 }
 
-.work-process > .item > .item-content:before,
-.work-process > .item > .item-content:after {
+.work-process > .item > .work-process-item-content:before,
+.work-process > .item > .work-process-item-content:after {
     content: '';
     position: absolute;
     z-index: 0;
 }
 
-.work-process > .item > .item-content:before {
+.work-process > .item > .work-process-item-content:before {
     border-top: 1px solid #ff5100;
     height: 1px;
     left: 0;
@@ -1461,7 +2185,7 @@ button.primary_btn {
     width: 100%;
 }
 
-.work-process > .item > .item-content:after {
+.work-process > .item > .work-process-item-content:after {
     border-right: 1px dashed #ff0055;
     height: 100%;
     right: 0;
@@ -1469,7 +2193,7 @@ button.primary_btn {
     width: 1px;
 }
 
-.work-process > .item > .item-content > .icon-block {
+.work-process > .item > .work-process-item-content > .icon-block {
     display: block;
     height: 66px;
     left: 50%;
@@ -1483,7 +2207,7 @@ button.primary_btn {
     z-index: 1;
 }
 
-.work-process > .item > .item-content > .icon-arrow {
+.work-process > .item > .work-process-item-content > .icon-arrow {
     bottom: 0;
     left: 0;
     margin-bottom: -44px;
@@ -1492,8 +2216,8 @@ button.primary_btn {
     z-index: 1;
 }
 
-.work-process > .item > .item-content > .icon-arrow,
-.work-process > .item > .item-content > .icon-block::before {
+.work-process > .item > .work-process-item-content > .icon-arrow,
+.work-process > .item > .work-process-item-content > .icon-block::before {
     background: -webkit-linear-gradient(225deg, #ff8800 0%, #ff5a44 100%, #ff0040) 0% 0% / 300% 300%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -1504,7 +2228,7 @@ button.primary_btn {
     animation: fontgradient 2s ease infinite;
 }
 
-.work-process > .item > .item-content > .dot {
+.work-process > .item > .work-process-item-content > .dot {
     border-radius: 25%;
     content: '';
     height: 8px;
@@ -1515,11 +2239,11 @@ button.primary_btn {
     z-index: 0;
 }
 
-.work-process > .item > .item-content > .dot.dot-start {
+.work-process > .item > .work-process-item-content > .dot.dot-start {
     left: 0;
 }
 
-.work-process > .item > .item-content > .dot.dot-end {
+.work-process > .item > .work-process-item-content > .dot.dot-end {
     right: 0;
 }
 
@@ -1528,7 +2252,22 @@ button.primary_btn {
 
 
 
-/*!                   # Section: references Area     */
+/*! =============================================================================
+/*!         # 28 - Section: CV Area
+/*! ===========================================================================*/
+
+.cv_section {
+    padding-bottom: 110px;
+}
+
+
+
+
+
+
+/*! =============================================================================
+/*!         # 29 - Section: References Area
+/*! ===========================================================================*/
 
 .references_section {
     padding-bottom: 100px;
@@ -1601,7 +2340,9 @@ button.primary_btn {
 
 
 
-/*!                   # Section:  Portfolio Area      */
+/*! =============================================================================
+/*!         # 30 - Section: Portfolio Area
+/*! ===========================================================================*/
 
 .portfolio_section {
     padding-bottom: 110px;
@@ -1693,7 +2434,9 @@ button.primary_btn {
 
 
 
-/*!                   # Section: Footer Area          */
+/*! =============================================================================
+/*!         # 31 - Section: Footer Area
+/*! ===========================================================================*/
 
 .footer_section {
     background: linear-gradient(180deg, #ff8800a2 0%, #ff0055 100%);
@@ -1754,18 +2497,39 @@ button.primary_btn {
 
 
 
-/*?                      -# RESPONSIVE CSS #-                   */
+/*? =============================================================================
+/*?                             -# RESPONSIVE CSS #-
+/*? =============================================================================
 
 
-/*!                   # Max-Width                     */
+/*! =============================================================================
+/*!         # 32 - Responsive: Max-Width
+/*! ===========================================================================*/
 
-@media(max-width:1620px) {
+/** =============================================================================
+/** # 32.1 Max 1620px
+/** ===========================================================================*/
+
+@media(max-width: 1620px) {
     .header_section .navbar .search {
         margin-left: 40px
     }
 }
 
-@media(max-width:1480px) {
+
+/** =============================================================================
+/** # 32.2 Max 1480px
+/** ===========================================================================*/
+
+@media(max-width: 1480px) {
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.2.1 - About Section
+    /*! =======================================================*/
+
     .about_section .about_img {
         right: 0
     }
@@ -1775,13 +2539,52 @@ button.primary_btn {
     }
 }
 
-@media(max-width:1200px) {
+
+/** =============================================================================
+/** # 32.3 Max 1200px
+/** ===========================================================================*/
+
+@media(max-width: 1200px) {
+    /*? =========================================================
+    /*?                   -# MAIN #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.3.1 - Spacing
+    /*! =======================================================*/
+
+    .section_gap {
+        padding: 80px 0
+    }
+    .section_gap_bottom {
+        padding-bottom: 80px
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.3.2 - Section: Header Area
+    /*! =======================================================*/
+
     .header_section .navbar .nav .nav-item {
         margin-right: 28px
     }
     .header_section .navbar .primary_btn {
         margin-left: 40px
     }
+
+    /*! =========================================================
+    /*!         # 32.3.3 - Section: (Home) Banner Area
+    /*! =======================================================*/
+
+    /** =========================================================
+    /** # 32.3.3.1 Home Banner Area
+    /** =======================================================*/
 
     .home_banner_section .banner_inner {
         padding: 100px 0
@@ -1795,6 +2598,10 @@ button.primary_btn {
         line-height: 45px
     }
 
+    /** =========================================================
+    /** # 32.3.3.2 Banner Area
+    /** =======================================================*/
+
     .banner_section {
         min-height: 350px
     }
@@ -1802,34 +2609,66 @@ button.primary_btn {
         min-height: 350px
     }
 
+    /*! =========================================================
+    /*!         # 32.3.4 - Section: Skills Area
+    /*! =======================================================*/
+
     .skills_section,
     .work_process_section {
         padding-bottom: 50px
     }
 
-    .section_gap {
-        padding: 80px 0
-    }
-    .section_gap_bottom {
-        padding-bottom: 80px
-    }
 
+
+
+    /*? =========================================================
+    /*?                   -# ELEMENTS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.3.5 - Element: Main Title
+    /*! =======================================================*/
 
     .main-title {
         margin-bottom: 40px
     }
 }
 
-@media(max-width:1024px) {
+/** =============================================================================
+/** # 32.4 Max 1199px
+/** ===========================================================================*/
+
+@media(max-width: 1199px){
+    .chart-rotating-circle {
+        left: -5px;
+    }
+}
+
+
+/** =============================================================================
+/** # 32.5 Max 1024px
+/** ===========================================================================*/
+
+@media(max-width: 1024px) {
     .footer_section {
         padding: 60px 0;
     }
 }
 
-@media(max-width:991px) {
-    /*?     -# Sections #-      */
 
-    /** Section: Header Area  */
+/** =============================================================================
+/** # 32.6 Max 991px
+/** ===========================================================================*/
+
+@media(max-width: 991px) {
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.6.1 - Section: Header Area
+    /*! =======================================================*/
+
     .header_section+section,
     .header_section+row,
     .header_section+div {
@@ -1875,14 +2714,18 @@ button.primary_btn {
         margin-left: 0
     }
 
+    /*! =========================================================
+    /*!         # 32.6.2 - Section: Statistics Area
+    /*! =======================================================*/
 
-    /** Section: Statistics Area  */
     .statistics_section {
         margin-top: 0
     }
 
+    /*! =========================================================
+    /*!         # 32.6.3 - Section: About Area
+    /*! =======================================================*/
 
-    /** Section: About Area  */
     .about_section .primary_btn {
         margin-top: 20px
     }
@@ -1893,8 +2736,14 @@ button.primary_btn {
         display: none
     }
 
+    /*! =========================================================
+    /*!         # 32.6.4 - Section: (Home) Banner Area
+    /*! =======================================================*/
 
-    /** Section: Home Banner Area  */
+    /** =========================================================
+    /** # 32.6.4.1 Home Banner Area
+    /** =======================================================*/
+
     .home_banner_section {
         min-height: 750px;
         margin-top: 0;
@@ -1923,7 +2772,10 @@ button.primary_btn {
         display: none
     }
 
-    /** Section: Banner Area  */
+    /** =========================================================
+    /** # 32.6.4.2 Banner Area
+    /** =======================================================*/
+
     .banner_section .banner_inner .banner_content {
         margin-left: 0
     }
@@ -1931,8 +2783,10 @@ button.primary_btn {
         font-size: 30px
     }
 
+    /*! =========================================================
+    /*!         # 32.6.5 - Section: Portfolio Area
+    /*! =======================================================*/
 
-    /** Section: Portfolio Area  */
     .portfolio_section {
         padding-bottom: 50px
     }
@@ -1940,14 +2794,18 @@ button.primary_btn {
         margin-bottom: 20px
     }
 
+    /*! =========================================================
+    /*!         # 32.6.6 - Section: Brands Area
+    /*! =======================================================*/
 
-    /** Section: Brands Area  */
     .brands_section {
         padding-bottom: 50px
     }
 
+    /*! =========================================================
+    /*!         # 32.6.7 - Section: Footer Area
+    /*! =======================================================*/
 
-    /** Section: Footer Area  */
     .footer_section {
         padding-top: 80px!important;
         padding-bottom: 80px!important;
@@ -1961,9 +2819,16 @@ button.primary_btn {
     }
 
 
-    /*?     -# Elements #-      */
 
-    /** Element: Navbar Toggler  */
+
+    /*? =========================================================
+    /*?                   -# ELEMENTS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.6.8 - Element: Navbar Toggler
+    /*! =======================================================*/
+
     .navbar-toggler {
         border: none;
         border-radius: 0;
@@ -1999,8 +2864,10 @@ button.primary_btn {
         cursor: pointer
     }
 
+    /*! =========================================================
+    /*!         # 32.6.9 - Element: Navbar
+    /*! =======================================================*/
 
-    /** Element: Navbar  */
     .navbar .nav .nav-item .nav-link {
         color: #532800;
     }
@@ -2016,19 +2883,44 @@ button.primary_btn {
         padding: 0
     }
 
+    /*! =========================================================
+    /*!         # 32.6.10 - Element: Main Title
+    /*! =======================================================*/
 
-    /** Element: Main Title  */
     .main-title h2 br {
         display: none
     }
 
-    /** Element: Form  */
+    /*! =========================================================
+    /*!         # 32.6.11 - Element: Chart
+    /*! =======================================================*/
+
+    .chart-rotating-circle {
+        left: 35px;
+    }
+
+    /*! =========================================================
+    /*!         # 32.6.12 - Element: Form
+    /*! =======================================================*/
+
     .form-contact .form-submit {
         margin-top: 30px;
     }
 }
 
-@media(max-width:767px) {
+/** =============================================================================
+/** # 32.7 Max 767px
+/** ===========================================================================*/
+
+@media(max-width: 767px) {
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.7.1 - Section: Home Banner Area
+    /*! =======================================================*/
+
     .home_banner_section {
         min-height: 300px;
         background-position-x: -290px;
@@ -2067,511 +2959,88 @@ button.primary_btn {
         display: none;
     }
 
-    .main-title h2 {
-        font-size: 30px;
-        line-height: 34px
-    }
+    /*! =========================================================
+    /*!         # 32.7.2 - Section: Work Process Area
+    /*! =======================================================*/
 
-    .work-process > .item > .item-content {
+    .work-process > .item > .work-process-item-content {
         margin: 0 auto;
         width: 200px;
     }
-    .work-process > .item > .item-content.mt-0:after {
+    .work-process > .item > .work-process-item-content.mt-0:after {
         left: auto;
         right: 0;
         top: 50%;
     }
-    .work-process > .item > .item-content:after {
+    .work-process > .item > .work-process-item-content:after {
         height: calc(100% + 24px);
         left: 0;
         top: 50%;
     }
-    .work-process > .item > .item-content > .icon-arrow.icon-Up-3 {
+    .work-process > .item > .work-process-item-content > .icon-arrow.icon-Up-3 {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-    .work-process > .item > .item-content > .fas.fa-angle-double-up,
-    .work-process > .item > .item-content > .fas.fa-space-shuttle {
+    .work-process > .item > .work-process-item-content > .fas.fa-angle-double-up,
+    .work-process > .item > .work-process-item-content > .fas.fa-space-shuttle {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-    .work-process > .item:last-child > .item-content.mt-0 > .dot.dot-end {
+    .work-process > .item:last-child > .work-process-item-content.mt-0 > .dot.dot-end {
         left: auto;
         right: 0;
     }
-    .work-process > .item:last-child > .item-content > .dot.dot-end {
+    .work-process > .item:last-child > .work-process-item-content > .dot.dot-end {
         left: 0;
     }
+
+    /*! =========================================================
+    /*!         # 32.7.3 - Section: Portfolio Area
+    /*! =======================================================*/
 
     .portfolio_section .filters ul li {
         margin-right: 20px
     }
 
-    .statistics_item {
-        margin-bottom: 20px
-    }
-
-    .portfolio-item {
-        margin-bottom: 35px
-    }
-}
-
-@media(max-width:575px) {
-    .header_section+section,
-    .header_section+row,
-    .header_section+div {
-        margin-top: 0
-    }
-
-    .home_banner_section .banner_inner .banner_content h2 {
-        font-size: 28px;
-        line-height: 38px
-    }
-    .home_banner_section {
-        min-height: 450px
-    }
-    .home_banner_section .banner_inner {
-        min-height: 450px
-    }
-    .home_banner_section .banner_inner .banner_content img {
-        display: none
-    }
-    .home_banner_section .banner_inner .banner_content h5 {
-        margin-top: 0
-    }
-
-    .footer-area {
-        padding: 70px 0
-    }
-
-    .section_gap {
-        padding-top: 70px;
-        padding-bottom: 70px
-    }
-
-    .main-title h2 {
-        font-size: 25px
-    }
-}
-
-@media(max-width:480px) {
-    .header_section .navbar-collapse {
-        max-height: 250px
-    }
-
-    .home_banner_section .banner_inner .banner_content {
-        padding: 30px 15px;
-        margin-top: 0
-    }
-    .home_banner_section .banner_inner .banner_content h3 {
-        font-size: 24px
-    }
-
-    .banner_section .banner_inner .banner_content h2 {
-        font-size: 32px
-    }
-
-    .portfolio_details_inner .row {
-        margin-bottom: 30px
-    }
-}
-
-@media only screen and (min-width:992px) and (max-width:1200px) {
-    .brand-carousel .single-brand-item {
-        height: 100px;
-        width: 140px;
-    }
-}
 
 
 
+    /*? =========================================================
+    /*?                   -# ELEMENTS #-
+    /*? =========================================================
 
+    /*! =========================================================
+    /*!         # 32.7.4 - Element: Main Title
+    /*! =======================================================*/
 
-
-/*!                   # Min-Width                     */
-
-@media(min-width:600px) {
-    .references_section {
-        padding-bottom: 180px
-    }
-
-    .section-margin {
-        margin: 80px 0;
-    }
-}
-
-@media(min-width:768px) {
-    .work-process > .item > .item-content.mt-0 > .icon-arrow {
-        bottom: 0;
-        margin-bottom: -32px;
-        top: auto;
-    }
-    .work-process > .item > .item-content > .icon-arrow {
-        left: auto;
-        margin-right: -32px;
-        margin-top: -32px;
-        right: 0;
-        top: 0;
-    }
-}
-
-@media(min-width:992px) {
-    .navbar .nav .nav-item.submenu ul {
-        position: absolute;
-        top: 120%;
-        left: 0;
-        min-width: 200px;
-        text-align: left;
-        opacity: 0;
-        transition: all 300ms ease-in;
-        visibility: hidden;
-        display: block;
-        border: none;
-        padding: 0;
-        border-radius: 0;
-        box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .1);
-    }
-    .navbar .nav .nav-item.submenu:hover ul {
-        visibility: visible;
-        opacity: 1;
-        top: 100%
-    }
-
-    .references-slider .references-item {
-        margin-top: 150px
-    }    
-    .references-slider .owl-dots {
-        left: 70%
-    }
-    .references-slider::after {
-        display: block
-    }
-}
-
-@media(min-width:1024px) {
-    .form-contact .form-group {
-        margin-bottom: 30px
-    }
-}
-
-@media(min-width:1200px) {
-    .references_section {
-        padding-bottom: 390px
-    }
-
-    .references-slider::after {
-        width: 665px;
-        height: 550px;
-        transform: scale(1)
-    }
-
-    .section-margin {
-        margin: 120px 0;
-    }
-    .pb-xl-300px {
-        padding-bottom: 300px!important;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-
-
-
-
-
-
-
-
-/* Resume Title with bars */
-.title-main-page {
-	position: relative;
-	z-index: 1;
-}
-.title-main-page h4,
-.title-main-page p {
-    text-align: center;
-}
-.title-main-page h4::before {
-	content: '';
-	display: inline-block;
-	width: 60px;
-	height: 15px;
-	border-color: #ff9100;
-	border-style: solid;
-	border-width: 5px 5px 0 5px;
-	position: absolute;
-	top: -25px;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-
-
-
-
-.custom-btn span::after,
-.title-main-page p::after {
-	content: '';
-	display: block;
-	border-bottom: 5px solid #ff9100;
-	width: 57px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 10px;
-}
-
-.primary_btn::before {
-	content: '';
-	display: inline-block;
-	width: 60px;
-	height: 15px;
-	border-color: #ff9100;
-	border-style: solid;
-	border-width: 5px 5px 0 5px;
-	position: absolute;
-	top: -25px;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-
-
-
-/* Resume Section element: section head */
-
-
-/* 9.3 Download Resume */
-
-@media only screen and (max-width: 768px) {
-    .main-title h4 {
-        font-size: 28px;
-    }
     .main-title {
         margin-bottom: 40px;
+    }
+    .main-title h2 {
+        font-size: 30px;
+        line-height: 34px
+    }
+    .main-title h4 {
+        font-size: 28px;
     }
     .main-title h4 span {
         font-size: 20px;
     }
-}
 
+    /*! =========================================================
+    /*!         # 32.7.5 - Element: Statistics Item
+    /*! =======================================================*/
 
-.resume_section {
-    padding-bottom: 110px;
-}
+    .statistics_item {
+        margin-bottom: 20px
+    }
 
-/* ============================================================================= 
-#9. Resume SubPage
-============================================================================= */
+    /*! =========================================================
+    /*!         # 32.7.6 - Element: Timeline
+    /*! =======================================================*/
 
-/* 9.1 Timeline*/
-.timeline-bg{
-    background: #f4f5f9;
-}
-.main-timeline{
-    overflow: hidden;
-    position: relative;
-    padding: 0px 0;
-}
-.main-timeline:before{
-    content: "";
-    width: 3px;
-    height: 80%;
-    background: linear-gradient(to top, #e68413 0%, #ed2360 100%);;
-    position: absolute;
-    top: 1px;
-    left: 50%;
-}
-.main-timeline .date{
-    display: block;
-    font-size: 14px;
-    color: #888;
-    margin: 0 0 8px;
-    font-family: sans-serif;
-    transition: all 0.3s ease 0s;
-}
-.main-timeline .description{
-    margin-top: 8px;
-}
-.main-timeline ul.description li.right::after {
-    list-style-type: circle;
-	content: " ⦾";
-	margin: 0 .5rem 0 0;
-	color: #ff7a18;
-}
-.main-timeline .timeline-content{
-    width: 85%;
-    padding: 18px 30px;
-    text-align: right;
-    float: left;
-    border: 1px solid transparent;
-    position: relative;
-    transition: all 0.3s ease 0s;
-}
-.main-timeline .timeline-icon{
-    width: 100px;
-    height: 100px;
-    background: #ff6000;
-    position: absolute;
-    top: 0px;
-    right: -60px;
-    z-index: 1;
-    border-radius: 100%;
-    box-shadow: 2px 2px 20px rgba(0,0,0,.1);
-}
-.main-timeline .timeline-icon:before{
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #ce0000;
-    position: absolute;
-    top: 15%;
-    left: 86%;
-    transform: translate(-50%, -50%);
-    transition: background-color 0.2s ease 0s;
-}
-.main-timeline .timeline{
-    width: 50%;
-    clear: both;
-    position: relative;
-}
-.main-timeline .timeline:before,
-.main-timeline .timeline:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.main-timeline .timeline:first-child:before,
-.main-timeline .timeline:last-child:before{
-    content: "";
-    width: 11px;
-    height: 11px;
-    background: #cfcdcd;
-    box-sizing: content-box;
-    border: 5px solid #fff;
-    box-shadow: 0 0 0 2px #cfcdcd;
-    position: absolute;
-    top: -54px;
-    right: -11px;
-    transform: rotate(45deg);
-}
-.main-timeline .timeline:last-child:before{
-    top: auto;
-    bottom: -54px;
-}
-.main-timeline .timeline:last-child:nth-child(even):before{
-    right: auto;
-    left: -11px;
-}
-.main-timeline .timeline:nth-child(2n),
-.main-timeline .timeline:nth-child(2n) .timeline-content{
-    float: right;
-    text-align: left;
-}
-.main-timeline .timeline:nth-child(2n) .timeline-content:before{
-    left: -7.3px;
-}
-.main-timeline .timeline:nth-child(2n) .timeline-content:after{
-    left: -14%;
-}
-.main-timeline .timeline:nth-child(2n) .timeline-icon{
-    right: 0;
-    left: -65px;
-}
-.main-timeline .timeline:nth-child(2n) .timeline-icon:after {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: absolute;
-    top: 15%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    transition: background-color 0.2s ease 0s;
-}
-.main-timeline .timeline:nth-child(2n) .timeline-icon:before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #ce0000;
-    position: absolute;
-    top: 15%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    transition: background-color 0.2s ease 0s;
-}
-.main-timeline .timeline:hover .timeline-content:before{
-    background: #fc6f5c;
-    border-color: #fc6f5c;
-}
-.main-timeline .timeline:hover .date{
-    color: #b51818;
-}
-.main-timeline .title{
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    transition: all 0.3s ease 0s;
-}
-.main-timeline .timeline:hover .title{
-    color: #ff6000;
-}
-.timeline.actual .timeline-icon:after, 
-.main-timeline .timeline:hover .timeline-icon:after{
-    background: linear-gradient(-45deg, #ff9900, #ff2441);;
-    background-size: 300% 300%;
-    animation: gradient 5s ease infinite;
-}
-.timeline-icon {
-    display:  flex;
-    justify-content:  center;
-    align-items:  center;
-}
-.timeline-icon:after{
-    content: "";
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #000000;
-    position: absolute;
-    top: 15%;
-    left: 86%;
-    transform: translate(-50%, -50%);
-    transition: background-color 0.2s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-.timeline-icon img {
-    width: 95px;
-    border-radius: 100%;
-}
-
-
-@media only screen and (max-width: 768px){
     .main-timeline .timeline-icon {
         width: 70px;
         height: 70px;
@@ -2604,10 +3073,12 @@ button.primary_btn {
     .main-timeline .timeline:nth-child(2n) .timeline-icon:after {
         width: 15px;
         height: 15px;
-
     }          
-    .main-timeline{ padding-left: 10px; }
-    .main-timeline .timeline{ width: 100%; 
+    .main-timeline{
+        padding-left: 10px;
+    }
+    .main-timeline .timeline{
+        width: 100%;
     }
     .main-timeline .timeline:first-child:before,
     .main-timeline .timeline:last-child:nth-child(odd):before{
@@ -2618,192 +3089,123 @@ button.primary_btn {
         right: 0;
         left: 0;
     }
-    .main-timeline .timeline-content:before{ left: -7.3px; }
-    .main-timeline .timeline-content:after{ left: -14%; }
-    .skills-items{
-        padding: 0 15px;
+    .main-timeline .timeline-content:before{
+        left: -7.3px;
     }
-
+    .main-timeline .timeline-content:after{
+        left: -14%;
+    }
     .main-timeline .timeline,
     .main-timeline .timeline-content{
         float: right;
         text-align: left;
         padding: 18px 0px 18px 30px;
     }
-    .list-skills .special-block-bg{
-        margin-bottom: 30px;
-    }
     .main-timeline .title {
         font-size: 16px;
     }
-}
 
+    /*! =========================================================
+    /*!         # 32.7.7 - Element: Chart
+    /*! =======================================================*/
 
-
-
-
-.cv-download-btn {
-	padding: 0px 0 10px 0;
-	margin-top: 40px;
-	text-align: unset !important;
-	margin-left: 30px;
-}
-
-.cv-download-btn .primary_btn::before {
-	top: -25px;
-	left: 70px;
-	right: unset;
-}
-
-.cv-download-btn span:after {
-	position: absolute;
-	bottom: 0;
-	left: 71px;
-}
-
-@media(max-width: 768px){
-    .cv-download-btn {
-	margin-left: 90px;
-}
-}
-
-
-
-
-
-
-
-
-
-.chart-bar > .item-progress,
-.chart-bar > .percent {
- -webkit-transition:all 1.3s ease;
- -moz-transition:all 1.3s ease;
- -o-transition:all 1.3s ease;
- transition:all 1.3s ease
-}
-.chart-bar {
- border-radius:2px;
- display:block;
- height:20px;
- position:relative;
- width:100%
-}
-.chart-bar > .item-progress {
- border-radius:2px;
- height:100%;
- left:0;
- position:absolute;
- top:0;
- width:1%
-}
-.chart-bar > .percent {
- height:40px;
- margin-top:-20px;
- position:absolute;
- right:calc(100% - 40px);
- width:40px;
- z-index:10
-}
-.chart-bar > .percent,
-.chart-circle > .percent {
- line-height:40px!important;
- top:50%;
- text-align:center
-}
-.chart-circle {
- position:relative;
- text-align:center
-}
-.chart-circle .chart {
-    background-color: #ce003e88;
-    border-radius: 50%;
-    height: 120px;
-    margin: 0 auto;
-    padding: 6px;
-    position: relative;
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    width: 120px
-}
-.chart-circle .chart > .item-progress {
- -webkit-transition:all 1.3s ease;
- -moz-transition:all 1.3s ease;
- -o-transition:all 1.3s ease;
- transition:all 1.3s ease;
- display:inline-block;
- height:20px;
- overflow:hidden;
- position:relative;
- width:108px
-}
-.chart-circle .chart > .item-progress:before {
-    border-radius: 106px;
-    background: linear-gradient(to top, #e68413 0%, #ed2360 100%);
-    content: '';
-    display: block;
-    height: 108px;
-    width: 108px
-}
-.chart-circle > .percent {
- display:block;
- height:40px;
- left:50%;
- margin-left:-20px;
- margin-top:-20px;
- position:absolute;
- width:40px;
-}
-.chart-rotating-circle {
-    position: absolute;
-    left: 10px;
-    z-index: -1;
-    top: -10px;
-}
-.chart-rotating-circle.clock-rotation {
-    -moz-animation: rotateRight 4.5s linear both infinite;
-/* Firefox */
--webkit-animation: rotateRight 4.5s linear both infinite;
-/* Safari and Chrome */
--o-animation: rotateRight 4.5s linear both infinite;
-/* Opera */
-animation: rotateRight 4.5s linear both infinite;
--webkit-animation-fill-mode: both;
-animation-fill-mode: both;
-}
-.chart-rotating-circle.clock-reverse-rotation {
--moz-animation: rotateLeft 5s linear both infinite;
-/* Firefox */
--webkit-animation: rotateLeft 5s linear both infinite;
-/* Safari and Chrome */
--o-animation: rotateLeft 5s linear both infinite;
-/* Opera */
-animation: rotateLeft 5s linear both infinite;
--webkit-animation-fill-mode: both;
-animation-fill-mode: both;
-}
-
-
-@media(max-width: 1199px){
-.chart-rotating-circle {
-	left: -5px;
-}
-}
-
-@media(max-width: 991px){
-    .chart-rotating-circle {
-        left: 35px;
-    }
-    }
-
-@media(max-width: 767px){
     .chart-rotating-circle {
         left: 50px;
     }
+
+    /*! =========================================================
+    /*!         # 32.7.8 - Element: Portfolio Item
+    /*! =======================================================*/
+
+    .portfolio-item {
+        margin-bottom: 35px
+    }
 }
 
-@media(max-width: 575px){
+
+/** =============================================================================
+/** # 32.8 Max 575px
+/** ===========================================================================*/
+
+@media(max-width: 575px) {
+    /*? =========================================================
+    /*?                   -# MAIN #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.8.1 - Spacing
+    /*! =======================================================*/
+
+    .row {
+        margin-right: unset;
+        margin-left: unset;
+    }
+
+    .section_gap {
+        padding-top: 70px;
+        padding-bottom: 70px
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.8.2 - Section: Header Area
+    /*! =======================================================*/
+
+    .header_section + section,
+    .header_section + .row,
+    .header_section + div {
+        margin-top: 0
+    }
+
+    /*! =========================================================
+    /*!         # 32.8.3 - Section: Home Banner Area
+    /*! =======================================================*/
+
+    .home_banner_section .banner_inner .banner_content h2 {
+        font-size: 28px;
+        line-height: 38px
+    }
+    .home_banner_section {
+        min-height: 450px
+    }
+    .home_banner_section .banner_inner {
+        min-height: 450px
+    }
+    .home_banner_section .banner_inner .banner_content img {
+        display: none
+    }
+    .home_banner_section .banner_inner .banner_content h5 {
+        margin-top: 0
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# ELEMENTS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.8.4 - Element: Main Title
+    /*! =======================================================*/
+
+    .main-title h2 {
+        font-size: 25px
+    }
+    .main-title .job-status {
+        right: unset;
+    }
+
+    /*! =========================================================
+    /*!         # 32.8.5 - Element: Chart
+    /*! =======================================================*/
+
     .chart-rotating-circle {
         margin-left: auto;
         margin-right: auto;
@@ -2811,140 +3213,257 @@ animation-fill-mode: both;
         right: 0;
         text-align: center;
     }
-}
 
+    /*! =========================================================
+    /*!         # 32.8.6 - Element: Progress
+    /*! =======================================================*/
 
-
-
-
-
-/* linear-gradient(90deg, #e68413 0%, #ed2360 100%); */
-
-
-.progress {
-	background-color: #ce003e88;
-	border-radius: 1rem;
-	height: 1.5rem;
-	margin-bottom: 1.5rem;
-	overflow: inherit;
-	position: relative;
-	text-align: right;
-}
-
-.progress-bar {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-	display: -ms-flexbox;
-	display: flex;
-    border-radius: 1rem;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-ms-flex-pack: center;
-	justify-content: center;
-	color: #fff;
-	text-align: center;
-	white-space: nowrap;
-	background: linear-gradient(90deg, #e68413 0%, #ed2360 100%);;
-	transition: width .6s ease;
-    width: 0%;
-}
-
-.progress .progress-text {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 100%;
-	padding-left: 0.8125rem;
-	padding-right: 0.8125rem;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 1;
-}
-
-.progress .progress-text span.title {
-    font-weight: 700;
-    color: #750027;
-    font-size: 16px;
-}
-
-.progress .progress-text span.percentuage {
-    font-weight: 700;
-    color: #fff;
-    font-size: 12px;
-}
-
-.progress-lines-container {
-    border-radius: 16px;
-    background-color: transparent;
-	border-radius: 20px;
-	padding: 1.875rem;
-	position: relative;
-	transition: box-shadow .3s ease-in-out;
-}
-
-@media only screen and (max-width: 580px) {
-.progress-lines-container {
+    .progress {
+        margin-bottom: 1rem;
+    }
+    .progress-lines-container {
         padding: 1.25rem;
-}
-.progress {
-	margin-bottom: 1rem;
-}
+    }
 }
 
 
+/** =============================================================================
+/** # 32.9 Max 480px
+/** ===========================================================================*/
 
+@media(max-width: 480px) {
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
 
+    /*! =========================================================
+    /*!         # 32.9.1 - Section: Header Area
+    /*! =======================================================*/
 
-
-
-
-.bg-base-color {
-    background: linear-gradient(90deg, #e68413 0%, #ed2360 100%);
-}
-.box-shadow-wide {
-	box-shadow: 0 23px 40px #ff660033 !important;
-}
-.font-alt {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    color: #ff6600;
-}
-
-
-
-
-
-
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-
-
-.job-status {
-	position: absolute;
-	right: 0;
-	top: 50px;
-}
-
-@media(max-width: 580px) {
-    .job-status {
-	right: unset;
+    .header_section .navbar-collapse {
+        max-height: 250px
     }
 
-    .row {
-	margin-right: unset;
-	margin-left: unset;
+    /*! =========================================================
+    /*!         # 32.9.2 - Section: (Home) Banner Area
+    /*! =======================================================*/
+
+    /** =========================================================
+    /** # 32.9.2.1 Home Banner Area
+    /** =======================================================*/
+
+    .home_banner_section .banner_inner .banner_content {
+        padding: 30px 15px;
+        margin-top: 0
+    }
+    .home_banner_section .banner_inner .banner_content h3 {
+        font-size: 24px
+    }
+
+    /** =========================================================
+    /** # 32.9.2.2 Banner Area
+    /** =======================================================*/
+
+    .banner_section .banner_inner .banner_content h2 {
+        font-size: 32px
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# ELEMENTS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 32.9.3 - Element: Portfolio Item
+    /*! =======================================================*/
+
+    .portfolio_details_inner .row {
+        margin-bottom: 30px
+    }
+}
+
+
+/** =============================================================================
+/** # 32.10 Min 992px ~ Max 1200px
+/** ===========================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .brand-carousel .single-brand-item {
+        height: 100px;
+        width: 140px;
+    }
+}
+
+
+
+
+
+
+/*! =============================================================================
+/*!         # 33 - Responsive: Min-Width
+/*! ===========================================================================*/
+
+/** =============================================================================
+/** # 33.1 Min 600px
+/** ===========================================================================*/
+
+@media(min-width: 600px) {
+    /*? =========================================================
+    /*?                   -# MAIN #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 33.1.1 - Spacing
+    /*! =======================================================*/
+
+    .section-margin {
+        margin: 80px 0;
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 33.1.2 - Section: References Area
+    /*! =======================================================*/
+
+    .references_section {
+        padding-bottom: 180px
+    }
+}
+
+
+/** =============================================================================
+/** # 33.2 Min 768px
+/** ===========================================================================*/
+
+@media(min-width: 768px) {
+    .work-process > .item > .work-process-item-content.mt-0 > .icon-arrow {
+        bottom: 0;
+        margin-bottom: -32px;
+        top: auto;
+    }
+    .work-process > .item > .work-process-item-content > .icon-arrow {
+        left: auto;
+        margin-right: -32px;
+        margin-top: -32px;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+/** =============================================================================
+/** # 33.3 Min 992px
+/** ===========================================================================*/
+
+@media(min-width: 992px) {
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 33.3.1 - Section: References Area
+    /*! =======================================================*/
+
+    .references-slider .references-item {
+        margin-top: 150px
+    }    
+    .references-slider .owl-dots {
+        left: 70%
+    }
+    .references-slider::after {
+        display: block
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# ELEMENTS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 33.3.2 - Element: Navbar
+    /*! =======================================================*/
+
+    .navbar .nav .nav-item.submenu ul {
+        position: absolute;
+        top: 120%;
+        left: 0;
+        min-width: 200px;
+        text-align: left;
+        opacity: 0;
+        transition: all 300ms ease-in;
+        visibility: hidden;
+        display: block;
+        border: none;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .1);
+    }
+    .navbar .nav .nav-item.submenu:hover ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%
+    }
+}
+
+
+/** =============================================================================
+/** # 33.4 Min 1024px
+/** ===========================================================================*/
+
+@media(min-width: 1024px) {
+    .form-contact .form-group {
+        margin-bottom: 30px
+    }
+}
+
+
+/** =============================================================================
+/** # 33.5 Min 1200px
+/** ===========================================================================*/
+
+@media(min-width: 1200px) {
+    /*? =========================================================
+    /*?                   -# MAIN #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 33.5.1 - Spacing
+    /*! =======================================================*/
+
+    .section-margin {
+        margin: 120px 0;
+    }
+    .pb-xl-300px {
+        padding-bottom: 300px!important;
+    }
+
+
+
+
+    /*? =========================================================
+    /*?                   -# SECTIONS #-
+    /*? =========================================================
+
+    /*! =========================================================
+    /*!         # 33.5.2 - Section: References Area
+    /*! =======================================================*/
+
+    .references_section {
+        padding-bottom: 390px
+    }
+    .references-slider::after {
+        width: 665px;
+        height: 550px;
+        transform: scale(1)
     }
 }
