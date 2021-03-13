@@ -53,107 +53,107 @@
 !    2128    ~    27 - Section: Work Process Area
 !    2256    ~    28 - Section: CV Area
 !    2269    ~    29 - Section: References Area
-!    2344    ~    30 - Section: Portfolio Area
-!    2438    ~    31 - Section: Footer Area
+!    2345    ~    30 - Section: Portfolio Area
+!    2439    ~    31 - Section: Footer Area
 *
 *
-?    2501    ~    Responsive CSS
-!    2506    ~    32 - Responsive: Max-Width
-*    2510    ~      32.1 - Max 1620px
+?    2502    ~    Responsive CSS
+!    2507    ~    32 - Responsive: Max-Width
+*    2511    ~      32.1 - Max 1620px
 *
-*    2521    ~      32.2 - Max 1480px
-?    2526    ~          Sections
-!    2530    ~              32.2.1 - About Section
+*    2522    ~      32.2 - Max 1480px
+?    2527    ~          Sections
+!    2531    ~              32.2.1 - About Section
 *
-*    2544    ~      32.3 Max 1200px
-?    2549    ~          Main
-!    2553    ~              32.3.1 - Spacing
-?    2567    ~          Sections
-!    2571    ~              32.3.2 - Section: Header Area
-!    2582    ~              32.3.3 - Section: (Home) Banner Area
-*    2586    ~                  32.3.3.1 - Home Banner
-*    2602    ~                  32.3.3.2 - Banner Area
-!    2613    ~              32.3.4 - Section: Skills Area
-?    2625    ~          Element
-!    2629    ~              32.3.5 - Element: Main Title
+*    2545    ~      32.3 Max 1200px
+?    2550    ~          Main
+!    2554    ~              32.3.1 - Spacing
+?    2568    ~          Sections
+!    2572    ~              32.3.2 - Section: Header Area
+!    2583    ~              32.3.3 - Section: (Home) Banner Area
+*    2587    ~                  32.3.3.1 - Home Banner
+*    2603    ~                  32.3.3.2 - Banner Area
+!    2614    ~              32.3.4 - Section: Skills Area
+?    2626    ~          Element
+!    2630    ~              32.3.5 - Element: Main Title
 *
-*    2638    ~      32.4 - Max 1199px
+*    2639    ~      32.4 - Max 1199px
 *
-*    2649    ~      32.5 - Max 1024px
+*    2650    ~      32.5 - Max 1024px
 *
-*    2660    ~      32.6 - Max 991px
-?    2665    ~          Sections
-!    2669    ~              32.6.1 - Section: Header Area
-!    2718    ~              32.6.2 - Section: Statistics Area
-!    2726    ~              32.6.3 - Section: About Area
-!    2740    ~              32.6.4 - Section: (Home) Banner Area
-*    2744    ~                  32.6.4.1 - Home Banner Area
-*    2776    ~                  32.6.4.2 - Banner Area
-!    2787    ~              32.6.5 - Section: Portfolio Area
-!    2798    ~              32.6.6 - Section: Brands Area
-!    2806    ~              32.6.7 - Section: Footer Area
-?    2825    ~          Elements
-!    2829    ~              32.6.8 - Element: Navbar Toggler
-!    2868    ~              32.6.9 - Element: Navbar
-!    2887    ~              32.6.10 - Element: Main Title
-!    2895    ~              32.6.11 - Element: Chart
-!    2903    ~              32.6.12 - Element: Form
+*    2661    ~      32.6 - Max 991px
+?    2666    ~          Sections
+!    2670    ~              32.6.1 - Section: Header Area
+!    2719    ~              32.6.2 - Section: Statistics Area
+!    2727    ~              32.6.3 - Section: About Area
+!    2741    ~              32.6.4 - Section: (Home) Banner Area
+*    2745    ~                  32.6.4.1 - Home Banner Area
+*    2777    ~                  32.6.4.2 - Banner Area
+!    2788    ~              32.6.5 - Section: Portfolio Area
+!    2799    ~              32.6.6 - Section: Brands Area
+!    2807    ~              32.6.7 - Section: Footer Area
+?    2826    ~          Elements
+!    2830    ~              32.6.8 - Element: Navbar Toggler
+!    2869    ~              32.6.9 - Element: Navbar
+!    2888    ~              32.6.10 - Element: Main Title
+!    2896    ~              32.6.11 - Element: Chart
+!    2904    ~              32.6.12 - Element: Form
 *
-*    2912    ~      32.7 - Max 767px
-?    2917    ~          Sections
-!    2921    ~              32.7.1 - Section: Home Banner Area
-!    2963    ~              32.7.2 - Section: Work Process Area
-!    3000    ~              32.7.3 - Section: Portfolio Area
-?    3011    ~          Elements
-!    3015    ~              32.7.4 - Element: Main Title
-!    3033    ~              32.7.5 - Element: Statistics Item
-!    3041    ~              32.7.6 - Element: Timeline
-!    3109    ~              32.7.7 - Element: Chart
-!    3117    ~              32.7.8 - Element: Portfolio Item
+*    2913    ~      32.7 - Max 767px
+?    2918    ~          Sections
+!    2922    ~              32.7.1 - Section: Home Banner Area
+!    2964    ~              32.7.2 - Section: Work Process Area
+!    3001    ~              32.7.3 - Section: Portfolio Area
+?    3012    ~          Elements
+!    3016    ~              32.7.4 - Element: Main Title
+!    3034    ~              32.7.5 - Element: Statistics Item
+!    3042    ~              32.7.6 - Element: Timeline
+!    3110    ~              32.7.7 - Element: Chart
+!    3118    ~              32.7.8 - Element: Portfolio Item
 *
-*    3127    ~      32.8 - Max 575px
-?    3132    ~          Main
-!    3136    ~              32.8.1 - Spacing
-?    3153    ~          Sections
-!    3157    ~              32.8.2 - Section: Header Area
-!    3167    ~              32.8.3 - Section: Home Banner Area
-?    3191    ~          Elements
-!    3195    ~              32.8.4 - Element: Main Title
-!    3206    ~              32.8.5 - Element: Chart
-!    3218    ~              32.8.6 - Element: Progress
+*    3128    ~      32.8 - Max 575px
+?    3133    ~          Main
+!    3137    ~              32.8.1 - Spacing
+?    3154    ~          Sections
+!    3158    ~              32.8.2 - Section: Header Area
+!    3168    ~              32.8.3 - Section: Home Banner Area
+?    3192    ~          Elements
+!    3196    ~              32.8.4 - Element: Main Title
+!    3207    ~              32.8.5 - Element: Chart
+!    3219    ~              32.8.6 - Element: Progress
 *
-*    3231    ~      32.9 Max 480px
-?    3236    ~          Sections
-!    3240    ~              32.9.1 - Section: Header Area
-!    3248    ~              32.9.2 - Section: (Home) Banner Area
-*    3252    ~                  32.9.2.1 - Home Banner Area
-*    3264    ~                  32.9.2.2 - Banner Area
-?    3275    ~          Elements
-!    3279    ~              32.9.3 - Element: Portfolio Item
+*    3232    ~      32.9 Max 480px
+?    3237    ~          Sections
+!    3241    ~              32.9.1 - Section: Header Area
+!    3249    ~              32.9.2 - Section: (Home) Banner Area
+*    3253    ~                  32.9.2.1 - Home Banner Area
+*    3265    ~                  32.9.2.2 - Banner Area
+?    3276    ~          Elements
+!    3280    ~              32.9.3 - Element: Portfolio Item
 *
-*    3289    ~      32.10 - Min 992px ~ Max 1200px
+*    3290    ~      32.10 - Min 992px ~ Max 1200px
 *
-!    3305    ~    33 - Responsive: Min-Width
-*    3309    ~      33.1 - Min 600px
-?    3314    ~          Main
-!    3318    ~              33.1.1 - Spacing
-?    3329    ~          Sections
-!    3333    ~              33.1.2 - Section: References Area
+!    3306    ~    33 - Responsive: Min-Width
+*    3310    ~      33.1 - Min 600px
+?    3315    ~          Main
+!    3319    ~              33.1.1 - Spacing
+?    3330    ~          Sections
+!    3334    ~              33.1.2 - Section: References Area
 *
-*    3343    ~      33.2 - Min 768px
+*    3344    ~      33.2 - Min 768px
 *
-*    3363    ~      33.3 - Min 992px
-?    3368    ~          Sections
-!    3372    ~              33.3.1 - Section: References Area
-?    3389    ~          Elements
-!    3393    ~              33.3.2 - Element: Navbar
+*    3364    ~      33.3 - Min 992px
+?    3369    ~          Sections
+!    3373    ~              33.3.1 - Section: References Area
+?    3390    ~          Elements
+!    3394    ~              33.3.2 - Element: Navbar
 *
-*    3420    ~      33.4 - Min 1024px
+*    3421    ~      33.4 - Min 1024px
 *
-*    3431    ~      33.5 - Min 1200px
-?    3436    ~          Main
-!    3440    ~              33.5.1 - Spacing
-?    3454    ~          Sections
+*    3432    ~      33.5 - Min 1200px
+?    3437    ~          Main
+!    3441    ~              33.5.1 - Spacing
+?    3455    ~          Sections
 !    3458    ~              33.5.2 - Section: References Area
 */
 /* ---------------------------- */
@@ -2303,7 +2303,8 @@ button.primary_btn {
     margin-right: auto;
     margin-left: auto;
     border-radius: 0 40px 0 40px;
-    box-shadow: -1px 7px 20px 0 rgba(5, 54, 77, .2)
+    box-shadow: -1px 7px 20px 0 rgba(5, 54, 77, .2);
+    object-fit: cover;
 }
 
 .references-slider h4 {
