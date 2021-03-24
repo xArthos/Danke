@@ -38,123 +38,123 @@
 !    1228    ~    17 - Element: Portfolio Item
 !    1312    ~    18 - Element: Brands Item
 !    1333    ~    19 - Element: Timeline
-!    1575    ~    20 - Element: Chart
-!    1714    ~    21 - Element: Progress Bar
+!    1582    ~    20 - Element: Chart
+!    1721    ~    21 - Element: Progress Bar
 *
 *
-?    1787    ~    Sections
-!    1794    ~    22 - Section: Header Area 
-!    1831    ~    23 - Section: (Home) Banner Area
-*    1835    ~      23.1 - Home Banner Area
-*    1911    ~      23.2 - Banner Area
-!    1985    ~    24 - Section: Statistics Area
-!    2027    ~    25 - Section: About Area
-!    2057    ~    26 - Section: Skills Area
-!    2128    ~    27 - Section: Work Process Area
-!    2256    ~    28 - Section: CV Area
-!    2269    ~    29 - Section: References Area
-!    2345    ~    30 - Section: Portfolio Area
-!    2439    ~    31 - Section: Footer Area
+?    1794    ~    Sections
+!    1801    ~    22 - Section: Header Area 
+!    1838    ~    23 - Section: (Home) Banner Area
+*    1842    ~      23.1 - Home Banner Area
+*    1918    ~      23.2 - Banner Area
+!    1992    ~    24 - Section: Statistics Area
+!    2034    ~    25 - Section: About Area
+!    2064    ~    26 - Section: Skills Area
+!    2135    ~    27 - Section: Work Process Area
+!    2264    ~    28 - Section: CV Area
+!    2276    ~    29 - Section: References Area
+!    2352    ~    30 - Section: Portfolio Area
+!    2446    ~    31 - Section: Footer Area
 *
 *
-?    2502    ~    Responsive CSS
-!    2507    ~    32 - Responsive: Max-Width
-*    2511    ~      32.1 - Max 1620px
+?    2509    ~    Responsive CSS
+!    2514    ~    32 - Responsive: Max-Width
+*    2518    ~      32.1 - Max 1620px
 *
-*    2522    ~      32.2 - Max 1480px
-?    2527    ~          Sections
-!    2531    ~              32.2.1 - About Section
+*    2529    ~      32.2 - Max 1480px
+?    2534    ~          Sections
+!    2538    ~              32.2.1 - About Section
 *
-*    2545    ~      32.3 Max 1200px
-?    2550    ~          Main
-!    2554    ~              32.3.1 - Spacing
-?    2568    ~          Sections
-!    2572    ~              32.3.2 - Section: Header Area
-!    2583    ~              32.3.3 - Section: (Home) Banner Area
-*    2587    ~                  32.3.3.1 - Home Banner
-*    2603    ~                  32.3.3.2 - Banner Area
-!    2614    ~              32.3.4 - Section: Skills Area
-?    2626    ~          Element
-!    2630    ~              32.3.5 - Element: Main Title
+*    2552    ~      32.3 Max 1200px
+?    2557    ~          Main
+!    2561    ~              32.3.1 - Spacing
+?    2575    ~          Sections
+!    2579    ~              32.3.2 - Section: Header Area
+!    2590    ~              32.3.3 - Section: (Home) Banner Area
+*    2594    ~                  32.3.3.1 - Home Banner
+*    2610    ~                  32.3.3.2 - Banner Area
+!    2621    ~              32.3.4 - Section: Skills Area
+?    2633    ~          Element
+!    2637    ~              32.3.5 - Element: Main Title
 *
-*    2639    ~      32.4 - Max 1199px
+*    2646    ~      32.4 - Max 1199px
 *
-*    2650    ~      32.5 - Max 1024px
+*    2657    ~      32.5 - Max 1024px
 *
-*    2661    ~      32.6 - Max 991px
-?    2666    ~          Sections
-!    2670    ~              32.6.1 - Section: Header Area
-!    2719    ~              32.6.2 - Section: Statistics Area
-!    2727    ~              32.6.3 - Section: About Area
-!    2741    ~              32.6.4 - Section: (Home) Banner Area
-*    2745    ~                  32.6.4.1 - Home Banner Area
-*    2777    ~                  32.6.4.2 - Banner Area
-!    2788    ~              32.6.5 - Section: Portfolio Area
-!    2799    ~              32.6.6 - Section: Brands Area
-!    2807    ~              32.6.7 - Section: Footer Area
-?    2826    ~          Elements
-!    2830    ~              32.6.8 - Element: Navbar Toggler
-!    2869    ~              32.6.9 - Element: Navbar
-!    2888    ~              32.6.10 - Element: Main Title
-!    2896    ~              32.6.11 - Element: Chart
-!    2904    ~              32.6.12 - Element: Form
+*    2668    ~      32.6 - Max 991px
+?    2673    ~          Sections
+!    2677    ~              32.6.1 - Section: Header Area
+!    2726    ~              32.6.2 - Section: Statistics Area
+!    2734    ~              32.6.3 - Section: About Area
+!    2748    ~              32.6.4 - Section: (Home) Banner Area
+*    2752    ~                  32.6.4.1 - Home Banner Area
+*    2784    ~                  32.6.4.2 - Banner Area
+!    2795    ~              32.6.5 - Section: Portfolio Area
+!    2806    ~              32.6.6 - Section: Brands Area
+!    2814    ~              32.6.7 - Section: Footer Area
+?    2833    ~          Elements
+!    2837    ~              32.6.8 - Element: Navbar Toggler
+!    2876    ~              32.6.9 - Element: Navbar
+!    2895    ~              32.6.10 - Element: Main Title
+!    2903    ~              32.6.11 - Element: Chart
+!    2911    ~              32.6.12 - Element: Form
 *
-*    2913    ~      32.7 - Max 767px
-?    2918    ~          Sections
-!    2922    ~              32.7.1 - Section: Home Banner Area
-!    2964    ~              32.7.2 - Section: Work Process Area
-!    3001    ~              32.7.3 - Section: Portfolio Area
-?    3012    ~          Elements
-!    3016    ~              32.7.4 - Element: Main Title
-!    3034    ~              32.7.5 - Element: Statistics Item
-!    3042    ~              32.7.6 - Element: Timeline
-!    3110    ~              32.7.7 - Element: Chart
-!    3118    ~              32.7.8 - Element: Portfolio Item
+*    2920    ~      32.7 - Max 767px
+?    2925    ~          Sections
+!    2929    ~              32.7.1 - Section: Home Banner Area
+!    2971    ~              32.7.2 - Section: Work Process Area
+!    3008    ~              32.7.3 - Section: Portfolio Area
+?    3019    ~          Elements
+!    3023    ~              32.7.4 - Element: Main Title
+!    3041    ~              32.7.5 - Element: Statistics Item
+!    3049    ~              32.7.6 - Element: Timeline
+!    3117    ~              32.7.7 - Element: Chart
+!    3125    ~              32.7.8 - Element: Portfolio Item
 *
-*    3128    ~      32.8 - Max 575px
-?    3133    ~          Main
-!    3137    ~              32.8.1 - Spacing
-?    3154    ~          Sections
-!    3158    ~              32.8.2 - Section: Header Area
-!    3168    ~              32.8.3 - Section: Home Banner Area
-?    3192    ~          Elements
-!    3196    ~              32.8.4 - Element: Main Title
-!    3207    ~              32.8.5 - Element: Chart
-!    3219    ~              32.8.6 - Element: Progress
+*    3135    ~      32.8 - Max 575px
+?    3140    ~          Main
+!    3144    ~              32.8.1 - Spacing
+?    3161    ~          Sections
+!    3165    ~              32.8.2 - Section: Header Area
+!    3175    ~              32.8.3 - Section: Home Banner Area
+?    3199    ~          Elements
+!    3203    ~              32.8.4 - Element: Main Title
+!    3214    ~              32.8.5 - Element: Chart
+!    3226    ~              32.8.6 - Element: Progress
 *
-*    3232    ~      32.9 Max 480px
-?    3237    ~          Sections
-!    3241    ~              32.9.1 - Section: Header Area
-!    3249    ~              32.9.2 - Section: (Home) Banner Area
-*    3253    ~                  32.9.2.1 - Home Banner Area
-*    3265    ~                  32.9.2.2 - Banner Area
-?    3276    ~          Elements
-!    3280    ~              32.9.3 - Element: Portfolio Item
+*    3239    ~      32.9 Max 480px
+?    3244    ~          Sections
+!    3248    ~              32.9.1 - Section: Header Area
+!    3256    ~              32.9.2 - Section: (Home) Banner Area
+*    3260    ~                  32.9.2.1 - Home Banner Area
+*    3272    ~                  32.9.2.2 - Banner Area
+?    3283    ~          Elements
+!    3287    ~              32.9.3 - Element: Portfolio Item
 *
-*    3290    ~      32.10 - Min 992px ~ Max 1200px
+*    3297    ~      32.10 - Min 992px ~ Max 1200px
 *
-!    3306    ~    33 - Responsive: Min-Width
-*    3310    ~      33.1 - Min 600px
-?    3315    ~          Main
-!    3319    ~              33.1.1 - Spacing
-?    3330    ~          Sections
-!    3334    ~              33.1.2 - Section: References Area
+!    3313    ~    33 - Responsive: Min-Width
+*    3317    ~      33.1 - Min 600px
+?    3322    ~          Main
+!    3326    ~              33.1.1 - Spacing
+?    3337    ~          Sections
+!    3341    ~              33.1.2 - Section: References Area
 *
-*    3344    ~      33.2 - Min 768px
+*    3351    ~      33.2 - Min 768px
 *
-*    3364    ~      33.3 - Min 992px
-?    3369    ~          Sections
-!    3373    ~              33.3.1 - Section: References Area
-?    3390    ~          Elements
-!    3394    ~              33.3.2 - Element: Navbar
+*    3371    ~      33.3 - Min 992px
+?    3376    ~          Sections
+!    3380    ~              33.3.1 - Section: References Area
+?    3397    ~          Elements
+!    3401    ~              33.3.2 - Element: Navbar
 *
-*    3421    ~      33.4 - Min 1024px
+*    3428    ~      33.4 - Min 1024px
 *
-*    3432    ~      33.5 - Min 1200px
-?    3437    ~          Main
-!    3441    ~              33.5.1 - Spacing
-?    3455    ~          Sections
-!    3458    ~              33.5.2 - Section: References Area
+*    3439    ~      33.5 - Min 1200px
+?    3444    ~          Main
+!    3448    ~              33.5.1 - Spacing
+?    3462    ~          Sections
+!    3465    ~              33.5.2 - Section: References Area
 */
 /* ---------------------------- */
 
@@ -1364,6 +1364,13 @@ button.primary_btn {
 
 .main-timeline .description{
     margin-top: 8px;
+}
+
+.main-timeline ul.description li.left::before {
+    list-style-type: circle;
+	content: " ⦾";
+	margin: 0 .5rem 0 0;
+	color: #ff7a18;
 }
 
 .main-timeline ul.description li.right::after {
