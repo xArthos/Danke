@@ -204,7 +204,7 @@ body {
 /** ===========================================================================*/
 
 * {
-    scrollbar-color: #e68413 rgb(0, 0, 0);
+    scrollbar-color: #e68413 #000000;
     scrollbar-width: thin;
     scroll-behavior: smooth;
 }
@@ -908,7 +908,7 @@ button.primary_btn {
     transform: translateY(70px);
     transition: transform 1s ease, background 1s ease;
     -webkit-transition: transform 1s ease, background 1s ease;
-    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 3px 16px 0 #0000001a
 }
 
 .header_section.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
@@ -922,7 +922,7 @@ button.primary_btn {
 .header_section.navbar_fixed .navbar .nav .nav-item:hover .nav-link,
 .header_section.navbar_fixed .navbar .nav .nav-item.active .nav-link {
     color: #ac0042;
-    filter: drop-shadow(0 0 1px rgb(255, 81, 0));
+    filter: drop-shadow(0 0 1px #ff5100);
 }
 
 .header_section.navbar_fixed .navbar .nav .nav-item.submenu:hover ul .nav-item .nav-link,
@@ -963,25 +963,25 @@ button.primary_btn {
 }
 
 .border-corner::after {
-	border-color: rgba(0, 0, 0, 0) #ff9100 #ff9100 rgba(0, 0, 0, 0);
+	border-color: #00000000 #ff9100 #ff9100 #00000000;
 	bottom: 0;
 	right: 0;
 }
 
 .border-corner::before {
-	border-color: #ff9100 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff9100;
+	border-color: #ff9100 #00000000 #00000000 #ff9100;
 	left: 0;
 	top: 0;
 }
 
 .border-corner-reverse::after {
-	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff9100 #ff9100 ;
+	border-color: #00000000 #00000000 #ff9100 #ff9100 ;
 	bottom: 0;
 	left: 0;
 }
 
 .border-corner-reverse::before {
-	border-color: #ff9100 #ff9100 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	border-color: #ff9100 #ff9100 #00000000 #00000000;
 	right: 0;
 	top: 0;
 }
@@ -1268,7 +1268,7 @@ button.primary_btn {
 
 .portfolio-item .short_info a:hover.primary_btn2 {
     color: #ff6600 !important;
-    text-shadow: 0 1px black 1px 0 black -1px 0 black 0 -1px black;
+    text-shadow: 0 1px #000000 1px 0 #000000 -1px 0 #000000 0 -1px #000000;
 }
 
 .portfolio-item .short_info a:hover.primary_btn2:before {
@@ -1292,7 +1292,7 @@ button.primary_btn {
 .portfolio-item:hover .overlay {
     top: 20px;
     left: 20px;
-    background: rgba(177, 65, 0, 0.9)
+    background: #b14100e6
 }
 
 .overlay {
@@ -1399,7 +1399,7 @@ button.primary_btn {
     right: -60px;
     z-index: 1;
     border-radius: 100%;
-    box-shadow: 2px 2px 20px rgba(0,0,0,.1);
+    box-shadow: 2px 2px 20px #0000001a;
 }
 
 .main-timeline .timeline-icon:before{
@@ -2310,7 +2310,7 @@ button.primary_btn {
     margin-right: auto;
     margin-left: auto;
     border-radius: 0 40px 0 40px;
-    box-shadow: -1px 7px 20px 0 rgba(5, 54, 77, .2);
+    box-shadow: -1px 7px 20px 0 #05364d33;
     object-fit: cover;
 }
 
@@ -2484,7 +2484,7 @@ button.primary_btn {
 }
 
 .footer_section .footer_social a:hover {
-    color: rgb(85, 0, 25);
+    color: #550019;
     background-position: right center;
 }
 
@@ -2685,7 +2685,7 @@ button.primary_btn {
     .header_section .navbar,
     .header_section.header_inner_page .navbar {
         background: linear-gradient(180deg, #e68413 0%, #ed2360 100%);
-        box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .1)
+        box-shadow: 0 3px 16px 0 #0000001a
     }
     .header_section .navbar .primary_btn {
         display: none
@@ -2817,7 +2817,7 @@ button.primary_btn {
     .footer_section {
         padding-top: 80px!important;
         padding-bottom: 80px!important;
-        background-color: linear-gradient(180deg, transparent 0%, rgb(255, 0, 85) 100%);
+        background-color: linear-gradient(180deg, transparent 0%, #ff0055 100%);
     }
     .footer_section .col-sm-6 {
         margin-bottom: 30px
@@ -3414,7 +3414,7 @@ button.primary_btn {
         border: none;
         padding: 0;
         border-radius: 0;
-        box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .1);
+        box-shadow: 0 10px 30px 0 #0000001a;
     }
     .navbar .nav .nav-item.submenu:hover ul {
         visibility: visible;
