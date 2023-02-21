@@ -1,19 +1,16 @@
-$(document).ready(function ($) {
-
-    // "use strict";
+$(document).ready(($) => {
+    // 'use strict';
 
     // Scrollax
     $.Scrollax();
 
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
-
 
     // Fixed Navbar
     const nav_offset_top = $('header').height() + 50;
 
-    function navbarFixed() {
+    const navbarFixed = () => {
         if ($('.header_section').length) {
             $(window).scroll(() => {
                 let scroll = $(window).scrollTop();
@@ -28,13 +25,11 @@ $(document).ready(function ($) {
 
     navbarFixed();
 
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
-
 
     // loader
-    function loader() {
+    const loader = () => {
         setTimeout(() => {
             if ($('.loader').length > 0) {
                 $('.loader').removeClass('show');
@@ -47,21 +42,16 @@ $(document).ready(function ($) {
 
     loader();
 
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
-
 
     // Animation entry on down scrolling
-    function counter() {
-
+    const counter = () => {
         $('#section-counter').waypoint(function (direction) {
-
             if (direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
-
-                var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
+                const comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
                 $('.number').each(function () {
-                    var $this = $(this),
+                    const $this = $(this),
                         num = $this.data('number');
                     console.log(num);
                     $this.animateNumber(
@@ -71,26 +61,20 @@ $(document).ready(function ($) {
                         }, 7000
                     );
                 });
-
             }
-
         }, { offset: '95%' });
-
-    }
+    };
 
     counter();
 
-    function contentWayPoint() {
+    const contentWayPoint = () => {
         let i = 0;
         $('.animation').waypoint(function (direction) {
-
             if (direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
-
                 i++;
 
                 $(this.element).addClass('item-animate');
-                setTimeout(function () {
-
+                setTimeout(() => {
                     $('body .animation.item-animate').each(function (k) {
                         let el = $(this);
                         setTimeout(function () {
@@ -114,7 +98,6 @@ $(document).ready(function ($) {
 
     contentWayPoint();
 
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
 
@@ -123,8 +106,8 @@ $(document).ready(function ($) {
     //         var wintop = $(window).scrollTop(), docheight = $('.page').height(), winheight = $(window).height();
     //         // console.log(wintop);
     //         var totalScroll = (wintop / (docheight - winheight)) * 100;
-    //         // console.log("total scroll" + totalScroll);
-    //         $(".KW_progressBar").css("width", totalScroll + "%");
+    //         // console.log('total scroll' + totalScroll);
+    //         $('.KW_progressBar').css('width', totalScroll + '%');
     //     });
 
     // };
@@ -133,21 +116,19 @@ $(document).ready(function ($) {
     $('.portfolio-filter ul li').on('click', function () {
         $('.portfolio-filter ul li').removeClass('active');
         $(this).addClass('active');
-        var data = $(this).attr('data-filter');
+        const data = $(this).attr('data-filter');
         $workGrid.isotope({ filter: data });
     });
     if (document.getElementById('portfolio')) {
-        var $workGrid = $('.portfolio-grid').isotope({
+        const $workGrid = $('.portfolio-grid').isotope({
             itemSelector: '.all',
             percentPosition: true,
             masonry: { columnWidth: '.grid-sizer' }
         });
     };
 
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
-
 
     // Owl-Carousel
     if ($('.references-slider').length) {
@@ -163,7 +144,7 @@ $(document).ready(function ($) {
         });
     };
 
-    $(".brand-carousel").owlCarousel({
+    $('.brand-carousel').owlCarousel({
         items: 1,
         autoplay: false,
         loop: true,
@@ -183,18 +164,28 @@ $(document).ready(function ($) {
         }
     });
 
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
 
+    const onScroll = () => {
+        const scrollPos = $(document).scrollTop();
+        $('#navbar-menu a').each(function () {
+            const currLink = $(this);
+            const refElement = $(currLink.attr('href'));
+            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                $('#navbar-menu ul li a').parent().removeClass('active');
+                currLink.parent().addClass('active');
+            };
+        });
+    };
 
     // Navbar Active Change Onscroll
-    $(document).on("scroll", onScroll);
+    $(document).on('scroll', onScroll);
 
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
-        $(document).off("scroll");
+        $(document).off('scroll');
 
         $('#navbar-menu a').each(function () {
             console.log($(this).parent())
@@ -209,26 +200,12 @@ $(document).ready(function ($) {
             'scrollTop': $target.offset().top + 2
         }, 500, 'swing', function () {
             window.location.hash = target;
-            $(document).on("scroll", onScroll);
+            $(document).on('scroll', onScroll);
         });
     });
 
-    function onScroll(event) {
-        const scrollPos = $(document).scrollTop();
-        $('#navbar-menu a').each(function () {
-            const currLink = $(this);
-            const refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('#navbar-menu ul li a').parent().removeClass("active");
-                currLink.parent().addClass("active");
-            };
-        });
-    };
-
-
     //////////////////////////////////////////////////
     //////////////////////////////////////////////////
-
 
     // Experienced year
     const diff_years = (dt2, dt1) => {
@@ -237,8 +214,25 @@ $(document).ready(function ($) {
         return Math.abs(Math.round(diff / 365.25));
     }
 
-    dt1 = new Date("March 16, 2020 09:00:00");
+    dt1 = new Date('March 16, 2020 09:00:00');
     dt2 = new Date();
 
     yearExpierenced.innerHTML = (diff_years(dt1, dt2));
+
+    //////////////////////////////////////////////////
+    //////////////////////////////////////////////////
+
+    $('#submitButton').on('click', () => {
+        $('#submitButton').prop("disabled", true);
+        $('#subject').val('');
+        $('#message').val('');
+        $('#name').val('');
+        $('#email').val('');
+        $('#alertMessage').text('Thank you for your message. I will contact you back soon ;)');
+
+        setTimeout(() => {
+            $('#alertMessage').text('');
+            $('#submitButton').prop("disabled", false);
+        }, 5000);
+    });
 });
