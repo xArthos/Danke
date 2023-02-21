@@ -52,7 +52,7 @@ $(document).ready(($) => {
                 const comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
                 $('.number').each(function () {
                     const $this = $(this),
-                        num = $this.data('number');
+                    num = $this.data('number');
                     console.log(num);
                     $this.animateNumber(
                         {
@@ -120,7 +120,7 @@ $(document).ready(($) => {
         $workGrid.isotope({ filter: data });
     });
     if (document.getElementById('portfolio')) {
-        const $workGrid = $('.portfolio-grid').isotope({
+        var $workGrid = $('.portfolio-grid').isotope({
             itemSelector: '.all',
             percentPosition: true,
             masonry: { columnWidth: '.grid-sizer' }
